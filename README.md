@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+<a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/07/Bootstrap-Tech-Conference-Template-DevConf-Gumroad-Pormo.png" alt="Bootstrap 5 Conference Template for Tech Conference and Event" /></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Theme Details & Demo
 
-## Available Scripts
+**Demo:** https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/
 
-In the project directory, you can run:
+DevConf is a free Bootstrap 5 conference template perfect for building marketing sites for tech conferences and events. 
 
-### `npm start`
+## Author & License
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This Bootstrap template is made by UX/UI designer [Xiaoying Riley](https://twitter.com/3rdwave_themes) for developers and is 100% FREE as long as you **keep the footer attribution link**. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+If you'd like to **use the template without the footer attribution link**, you can [buy the **commercial license** via the theme website](https://themes.3rdwavemedia.com/bootstrap-templates/free/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/)
 
-### `npm test`
+#### Follow Xiaoying
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Twitter](https://twitter.com/3rdwave_themes)
 
-### `npm run build`
+[Facebook](https://www.facebook.com/3rdwavethemes/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Dribbble](https://dribbble.com/Xiaoying)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Medium](https://medium.com/@3rdwave_themes)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Linkedin](https://uk.linkedin.com/in/xiaoying)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Latest Version
+**Bootstrap 5 v3.0** - 2023-06-22
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/?target=changelog)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Features
 
-## Learn More
+-  Fully Responsive
+-  HTML5 + CSS3
+-  Built on Bootstrap 5
+-  **SCSS** source files included
+-  1500+ FontAwesome 5 icons
+-  Compatible with all modern browsers
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits
+- [Bootstrap](https://getbootstrap.com/)
+- [FontAwesome](https://fontawesome.com/)
+- [Google fonts](https://fonts.google.com/)
+- Image Credit - [EuropeanaTech Conference](https://www.flickr.com/photos/europeanaimages2/albums/72157669104892268) and [TechCrunch](https://www.flickr.com/photos/techcrunch/) [Creative Commons 2.0 license](https://creativecommons.org/licenses/by/2.0/deed.en) (All images are shown for demonstration purposes only)
