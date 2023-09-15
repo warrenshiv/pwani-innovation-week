@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useEffect, useState } from 'react'
 import "../../assets/scss/theme.scss"
 import "../../assets/css/custom.css"
