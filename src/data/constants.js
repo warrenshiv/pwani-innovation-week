@@ -8,6 +8,7 @@ export const schedule = [
     {
         id: 1,
         day: 1,
+        date: 'Mon, 2nd Oct',
         program: [
             {
                 id: 1,
@@ -18,7 +19,7 @@ export const schedule = [
             },
             {
                 id: 2,
-                time: "10.30 AM- 12:45 PM",
+                time: "10.30 AM - 12:45 PM",
                 event_title: "Intellectual Property and Innovation Protection",
                 event_type: "Workshop",
                 venue: "Swahilipot: Amphitheatre",
@@ -35,7 +36,7 @@ export const schedule = [
             },
             {
                 id: 3,
-                time: "10.30 AM- 12:45 PM",
+                time: "10.30 AM - 12:45 PM",
                 event_title: "Data Science",
                 event_type: "Workshop",
                 venue: "Swahilipot: SPH Hall",
@@ -55,7 +56,7 @@ export const schedule = [
             },
             {
                 id: 5,
-                time: "2:15 PM- 3:30 PM",
+                time: "2:15 PM - 3:30 PM",
                 event_title: "Breaking Barriers: Gender Equality and Innovation in Technology",
                 event_type: "Plenary Session",
                 venue: "Main Arena",
@@ -89,7 +90,7 @@ export const schedule = [
             },
             {
                 id: 6,
-                time: "3:30 PM- 5:00 PM",
+                time: "3:30 PM - 5:00 PM",
                 event_title: "Mastering the Art of Pitching: Strategies for Success in the Modern Business Landscape",
                 event_type: "Master Class",
                 venue: "Swahilipot: Amphitheater",
@@ -102,7 +103,7 @@ export const schedule = [
             },
             {
                 id: 7,
-                time: "5:00 PM- 6:00 PM",
+                time: "5:00 PM - 6:00 PM",
                 event_title: "Band, Sanaa Mashinani",
                 event_type: "Entertainment",
                 venue: "Swahilipot: Amphitheater",
@@ -112,6 +113,7 @@ export const schedule = [
     {
         id: 2,
         day: 2,
+        date: 'Tue, 3rd Oct',
         program: [
             {
                 id: 1,
@@ -122,7 +124,7 @@ export const schedule = [
             },
             {
                 id: 2,
-                time: "9.00 AM- 10:20 AM",
+                time: "9.00 AM - 10:20 AM",
                 event_title: "Intellectual Property and Innovation Protection",
                 event_type: "Workshop",
                 venue: "Swahilipot: Main Arena",
@@ -184,13 +186,13 @@ export const schedule = [
             },
             {
                 id: 3,
-                time: "11.00 AM- 11:20 AM",
+                time: "11.00 AM - 11:20 AM",
                 event_title: "Health break",
                 event_type: "General",
             },
             {
                 id: 4,
-                time: "11:20 AM- 12:45 AM",
+                time: "11:20 AM - 12:45 AM",
                 event_title: "A Digitally Transformed Region for Prosperity and Inclusivity: Transforming the coastal region to a globally competitive digital economy",
                 event_type: "Plenary Session",
                 venue: "Main Arena",
@@ -227,7 +229,7 @@ export const schedule = [
             },
             {
                 id: 6,
-                time: "11:20 AM- 12:45 AM",
+                time: "11:20 AM - 12:45 AM",
                 event_title: "Navigating the Future of Work: Embracing Change, Technology, and Well-being",
                 event_type: "Plenary Session",
                 venue: "Main Arena",
@@ -257,7 +259,7 @@ export const schedule = [
             },
             {
                 id: 7,
-                time: "3:00 PM- 4:30 PM",
+                time: "3:00 PM - 4:30 PM",
                 event_title: "Break Out Session 1: Navigating the Funding Landscape: Strategies and Opportunities for 21st Century Startups",
                 event_type: "Break Out Session",
                 venue: "Swahilipot: SPH Foyer",
@@ -291,7 +293,7 @@ export const schedule = [
             },
             {
                 id: 8,
-                time: "3:00 PM- 4:30 PM",
+                time: "3:00 PM - 4:30 PM",
                 event_title: "Break Out Session 2: Coastal Resilience: Strategies for Climate Action in Coastal Strip",
                 event_type: "Break Out Session",
                 venue: "Swahilipot: Main Arena",
@@ -321,7 +323,7 @@ export const schedule = [
             },
             {
                 id: 9,
-                time: "6:00 PM-9:00 PM",
+                time: "6:00 PM - 9:00 PM",
                 event_title: "Gala Dinner",
                 event_type: "Art Performance - Band",
                 venue: "Swahilipot Hub",
@@ -331,6 +333,7 @@ export const schedule = [
     {
         id: 3,
         day: 3,
+        date: 'Wed, 4th Oct',
         program: [
             {
                 id: 1,
@@ -341,7 +344,7 @@ export const schedule = [
             },
             {
                 id: 2,
-                time: "11:20 AM- 12:45 AM",
+                time: "11:20 AM - 12:45 AM",
                 event_title: "Keynote Address",
                 event_type: "Keynote Address",
                 venue: "Main Arena",
@@ -371,7 +374,7 @@ export const schedule = [
             },
             {
                 id: 2,
-                time: "11:20 AM- 12:45 AM",
+                time: "11:20 AM - 12:45 AM",
                 event_title: "Preserving Coastal Heritage: Challenges, Opportunities, and Sustainability",
                 event_type: "Plenary Session",
                 venue: "Main Arena",
@@ -421,6 +424,7 @@ export const schedule = [
     {
         id: 4,
         day: 4,
+        date: 'Thur, 5th Oct',
         program: []
     },
 ]

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import '../../assets/scss/theme.scss';
 import '../../assets/css/theme.css';
+import { schedule } from '../../data/constants';
+
 
 const Schedule = () => {
   const [activeTab, setActiveTab] = useState('tab-1'); // Set the default active tab
@@ -22,154 +24,70 @@ const Schedule = () => {
             id="myTab"
             role="tablist"
           >
-            <li className="nav-item me-2">
-              <a
-                className={`nav-link ${activeTab === 'tab-1' ? 'active' : ''}`}
-                id="tab-1"
-                onClick={() => handleTabClick('tab-1')}
-                data-bs-toggle="tab"
-                href="#tab-1-content"
-                role="tab"
-                aria-controls="tab-1-content"
-                aria-selected={activeTab === 'tab-1'}
-              >
-                <span className="heading">Day 1</span>
-                <span className="meta">(Mon 2, Oct)</span>
-              </a>
-            </li>
-            <li className="nav-item me-2">
-              <a
-                className={`nav-link ${activeTab === 'tab-2' ? 'active' : ''}`}
-                id="tab-2"
-                onClick={() => handleTabClick('tab-2')}
-                data-bs-toggle="tab"
-                href="#tab-2-content"
-                role="tab"
-                aria-controls="tab-2-content"
-                aria-selected={activeTab === 'tab-2'}
-              >
-                <span className="heading">Day 2</span>
-                <span className="meta">(Tue 3, Oct)</span>
-              </a>
-            </li>
-            <li className="nav-item me-2">
-              <a
-                className={`nav-link ${activeTab === 'tab-3' ? 'active' : ''}`}
-                id="tab-3"
-                onClick={() => handleTabClick('tab-3')}
-                data-bs-toggle="tab"
-                href="#tab-3-content"
-                role="tab"
-                aria-controls="tab-3-content"
-                aria-selected={activeTab === 'tab-3'}
+            {schedule.map((day) => (
+              <li className="nav-item me-2" key={day.id}>
+                <a
+                  className={`nav-link ${
+                    activeTab === `tab-${day.id}` ? 'active' : ''
+                  }`}
+                  id={`tab-${day.id}`}
+                  onClick={() => handleTabClick(`tab-${day.id}`)}
+                  data-bs-toggle="tab"
+                  href={`#tab-${day.id}-content`}
+                  role="tab"
+                  aria-controls={`tab-${day.id}-content`}
+                  aria-selected={activeTab === `tab-${day.id}`}
                 >
-                <span className="heading">Day 3</span>
-                <span className="meta">(Wed 4, Oct)</span>
-              </a>
-            </li>
-            <li className="nav-item me-2">
-              <a
-                className={`nav-link ${activeTab === 'tab-4' ? 'active' : ''}`}
-                id="tab-4"
-                onClick={() => handleTabClick('tab-4')}
-                data-bs-toggle="tab"
-                href="#tab-4-content"
-                role="tab"
-                aria-controls="tab-4-content"
-                aria-selected={activeTab === 'tab-4'}
-              >
-                <span className="heading">Day 4</span>
-                <span className="meta">(Thu 5, Oct)</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className={`nav-link ${activeTab === 'tab-5' ? 'active' : ''}`}
-                id="tab-5"
-                onClick={() => handleTabClick('tab-5')}
-                data-bs-toggle="tab"
-                href="#tab-5-content"
-                role="tab"
-                aria-controls="tab-5-content"
-                aria-selected={activeTab === 'tab-5'}
-              >
-                <span className="heading">Day 5</span>
-                <span className="meta">(Fri 6, Oct)</span>
-              </a>
-            </li>
+                  <span className="">Day {day.day}</span>
+                  <span className="">({day.date})</span>
+                </a>
+              </li>
+            ))}
           </ul>
 
           {/* Tab panes for Schedule */}
           <div className="schedule-tab-content tab-content">
-            {/* day 1 */}
+          {schedule.map((day) => (
             <div
               className={`tab-pane ${
-                activeTab === 'tab-1' ? 'active' : ''
+                activeTab === `tab-${day.id}` ? 'active' : ''
               }`}
-              id="tab-1-content"
+              id={`tab-${day.id}-content`}
               role="tabpanel"
-              aria-labelledby="tab-1"
+              aria-labelledby={`tab-${day.id}`}
+              key={day.id}
             >
               <h4 className="text-center py-5 text-muted">
-                Day 1 Schedule Will be Updated Soon
+                {day.program.length === 0
+                  ? `Day ${day.day} Schedule Will be Updated Soon`
+                  : `Day ${day.day} Schedule`}
               </h4>
+              {day.program.map((event) => (
+                <div key={event.id}>
+                  {/* Render event details here */}
+                  <p>{event.time}</p>
+                  <p>{event.event_title}</p>
+                  <p>{event.venue}</p>
+                  <p><small>{event.event_type}</small></p>
+                  {/*{event.speakers && (
+                    <div>
+                      <h5>Speakers:</h5>
+                      <ul>
+                        {event.speakers.map((speaker) => (
+                          <li key={speaker.id}>
+                            {speaker.name} - {speaker.organization}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}*/}
+                  <br/>
+                  {/* Add more event details as needed */}
+                </div>
+              ))}
             </div>
-            {/* day 2 */}
-            <div
-              className={`tab-pane ${
-                activeTab === 'tab-2' ? 'active' : ''
-              }`}
-              id="tab-2-content"
-              role="tabpanel"
-              aria-labelledby="tab-2"
-            >
-              <h4 className="text-center py-5 text-muted">
-                Day 2 Schedule Will be Updated Soon
-              </h4>
-            </div>
-            {/* day 3 */}
-            <div
-              className={`tab-pane ${
-                activeTab === 'tab-3' ? 'active' : ''
-              }`}
-              id="tab-3-content"
-              role="tabpanel"
-              aria-labelledby="tab-3"
-            >
-              <h4 className="text-center py-5 text-muted">
-                Day 3 Schedule Will be Updated Soon
-              </h4>
-            </div>
-            {/* day 4 */}
-            <div
-              className={`tab-pane ${
-                activeTab === 'tab-4' ? 'active' : ''
-              }`}
-              id="tab-4-content"
-              role="tabpanel"
-              aria-labelledby="tab-4"
-            >
-              <h4 className="text-center py-5 text-muted">
-                Day 4 Schedule Will be Updated Soon
-              </h4>
-            </div>
-            {/* Repeat for other days */}
-          {/* day 5 */}
-          <div
-              className={`tab-pane ${
-                activeTab === 'tab-5' ? 'active' : ''
-              }`}
-              id="tab-5-content"
-              role="tabpanel"
-              aria-labelledby="tab-5"
-            >
-              <h4 className="text-center py-5 text-muted">
-                Day 5 Schedule Will be Updated Soon
-              </h4>
-          </div>
-          </div>
-            {/* Repeat for other days */}
-          
+          ))}
+        </div>
 
           {/* Schedule CTA */}
           <div className="schedule-cta text-center mx-auto">

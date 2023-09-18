@@ -13,9 +13,10 @@ const Speakers = () => {
             Our Curated list of Speakers for the Pwani Innovation Week 2023
           </div>
           <div className='row'>
-            <h4 className='text-center py-5 text-muted'>
+            {}
+            {/*<h4 className='text-center py-5 text-muted'>
               Our Speaker List is getting Ready, we will updated Soon!
-            </h4>
+            </h4>*/}
           </div>
           {/* <!--//row--> */}
           <div className='speakers-cta text-center py-3'>
