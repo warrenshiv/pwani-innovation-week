@@ -15,7 +15,7 @@ const Speakers = () => {
           <div className='row'>
             {}
             <h4 className='text-center py-5 text-muted'>
-              Our Speaker List is getting Ready, we will updated Soon!
+              Our Speaker List is getting Ready, we will update soon!
             </h4>
           </div>
           {/* <!--//row--> */}

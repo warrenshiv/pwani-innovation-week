@@ -233,7 +233,7 @@ export const schedule = [
                 event_title: "Navigating the Future of Work: Embracing Change, Technology, and Well-being",
                 event_type: "Plenary Session",
                 venue: "Main Arena",
-                moderator: "Nyambura Kariuki- Global Development Incubator",
+                moderator: "Nyambura Kariuki - Global Development Incubator",
                 partners: [
                     {
                         id: 1,
@@ -309,7 +309,7 @@ export const schedule = [
                     },
                     {
                         id: 3,
-                        name: "CECM- Kilifi County"
+                        name: "CECM - Kilifi County"
                     },
                     {
                         id: 4,
@@ -424,6 +424,7 @@ export const schedule = [
                 time: "9:30AM - 2:00PM",
                 event_title: "Navigating Coastal Opportunities: Career Pathways in the Coastal Strips - Students Center",
                 event_type: "The Coastal Jobs Fair",
+                moderator: "TBC",
                 venue: "Career Corner",
                 partners: [
                     {
@@ -461,7 +462,8 @@ export const schedule = [
                 id: 6,
                 time: "2:00PM - 3:15PM",
                 event_title: "Pioneering Progress: Women in tech Leading the Digital Revolution",
-                event_type: "Plenary Session 5",
+                event_type: "Plenary Session",
+                moderator: "TBC",
                 venue: "Main Arena",
                 partners: [
                     {
@@ -502,7 +504,8 @@ export const schedule = [
                 id: 7,
                 time: "3:30PM - 5:30PM",
                 event_title: "Guiding the Future: The Transformation Power of Mentorship, Sailing Beyond Borders",
-                event_type: "Plenary Session 6",
+                event_type: "Plenary Session",
+                moderator: "Abdul Razak Hussein - VOTAI",
                 venue: "Main Arena",
                 partners: [
                     {
@@ -591,6 +594,7 @@ export const schedule = [
                 time: "9:20AM - 10:30AM",
                 event_type: "Plenary Session",
                 event_title: "Plenary Session 7: Harvesting Green Gold: Advancing Coastal Green Economy",
+                moderator: "TBC",
                 venue: "Main Arena",
                 partners: [
                     {
@@ -620,6 +624,7 @@ export const schedule = [
                 time: "10:35AM - 12:00PM",
                 event_type: "Plenary Session",
                 event_title: "Plenary Session 8: Exploring the vibrant potential of the Orange Economy: Fostering Innovation, Sustainability and Inclusivity",
+                moderator: "TBC",
                 venue: "Main Arena",
                 partners: [
                     {
@@ -649,6 +654,7 @@ export const schedule = [
                 time: "12:00PM - 1:00PM",
                 event_type: "Breakout Session",
                 event_title: "Break out Session 3: Sustainable Growth and Innovation: Exploring Opportunities in the Coastal Blue Economy",
+                moderator: "TBC",
                 venue: "Main Arena",
                 partners: [
                     {
@@ -670,10 +676,11 @@ export const schedule = [
                 ]
             },
             {
-                id: 6,
+                id: 5,
                 time: "12:00PM - 1:00PM",
                 event_type: "Breakout Session",
                 event_title: "Break out Session 4: Empowering Kenya's Youth for a Prosperous Future",
+                moderator: "TBC",
                 venue: "Main Arena",
                 partners: [
                     {
@@ -687,15 +694,16 @@ export const schedule = [
                 ]
             },
             {
-                id: 7,
+                id: 6,
                 event_title: "Lunch Break",
                 time: "1:00PM - 2:00PM"
             },
             {
-                id: 8,
+                id: 7,
                 time: "2:00PM - 4:00PM",
-                event_title: "Plenary Session 9: Pitching Thursday - The Deals Den",
+                event_title: "Plenary Session: Pitching Thursday - The Deals Den",
                 event_type: "Plenary Session",
+                moderator: "MC",
                 venue: "Main Auditorium",
                 partners: [
                     {
@@ -736,6 +744,7 @@ export const schedule = [
                 id: 9,
                 event_title: "Official Closing Ceremony",
                 time: "4:00PM - 5:00PM",
+                moderator: "MC",
                 venue: "Main Arena",
                 partners: [
                     {
