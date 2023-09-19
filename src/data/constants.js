@@ -419,14 +419,354 @@ export const schedule = [
                     }
                 ]
             },
+            {
+                id: 4,
+                time: "9:30AM - 2:00PM",
+                event_title: "Navigating Coastal Opportunities: Career Pathways in the Coastal Strips - Students Center",
+                event_type: "The Coastal Jobs Fair",
+                venue: "Career Corner",
+                partners: [
+                    {
+                        id: 1,
+                        name: "CAPYEI"
+                    },
+                    {
+                        id: 2,
+                        name: "Kenya Private Sector Alliance"
+                    },
+                    {
+                        id: 3,
+                        name: "FURSA"
+                    }
+                ]
+            },
+            {
+                id: 4,
+                time: "10:00AM - 4:00PM",
+                event_title: "Hackathon",
+                venue: "SPH Hall",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Techkidz Africa"
+                    }
+                ]
+            },
+            {
+                id: 5,
+                time: "1:00PM - 2:00PM",
+                event_title: "Lunch Break"
+            },
+            {
+                id: 6,
+                time: "2:00PM - 3:15PM",
+                event_title: "Pioneering Progress: Women in tech Leading the Digital Revolution",
+                event_type: "Plenary Session 5",
+                venue: "Main Arena",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Maureen Mwaniki - Huawei"
+                    },
+                    {
+                        id: 2,
+                        name: "Safaricom"
+                    },
+                    {
+                        id: 3,
+                        name: "Pwani Teknowgalz"
+                    },
+                    {
+                        id: 4,
+                        name: "Communication Authority"
+                    },
+                    {
+                        id: 5,
+                        name: "Kenya Redcross Society"
+                    },
+                    {
+                        id: 6,
+                        name: "Husnia Muhammed"
+                    },
+                    {
+                        id: 7,
+                        name: "Hubris"
+                    },
+                    {
+                        id: 8,
+                        name: "June Chepkemei - Keninvest"
+                    }
+                ]
+            },
+            {
+                id: 7,
+                time: "3:30PM - 5:30PM",
+                event_title: "Guiding the Future: The Transformation Power of Mentorship, Sailing Beyond Borders",
+                event_type: "Plenary Session 6",
+                venue: "Main Arena",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Jacqueline Kiplagat - Swahilipot Hub Foundation"
+                    },
+                    {
+                        id: 2,
+                        name: "Kaye Matereke - Tactive Consulting - Moderator"
+                    },
+                    {
+                        id: 3,
+                        name: "Alfred Sigo - CEO Pwani Youth Network"
+                    },
+                    {
+                        id: 4, 
+                        name: "Ms. Sophia Wabosha - Give for Good"
+                    },
+                    {
+                        id: 5,
+                        name: "Mr Kenneth Ambani - CECM Department of Public Service Administration"
+                    },
+                    {
+                        id: 6,
+                        name: "Mercy Wanjau, MBS - Secretary to the Cabinet, Republic of Kenya"
+                    }
+                ]
+            },
+            {
+                id: 8,
+                time: "6:30PM - 8:30PM",
+                event_title: "4BM Awards and Art Performance",
+                partners: [
+                    {
+                        id: 1,
+                        name: "The 4gotten Bottom Millions"
+                    },
+                    {
+                        id: 2,
+                        name: "Kayana"
+                    }
+                ]
+            }
         ]
     },
     {
         id: 4,
         day: 4,
         date: 'Thur, 5th Oct',
-        program: []
+        program: [
+            {
+                id: 1,
+                time: "8:30AM - 9:00AM",
+                event_title: "Arrival and Registration",
+                event_type: "General",
+                venue: "Registration Desk"
+            },
+            {
+                id: 2,
+                time: "8:30AM - 9:15AM",
+                event_title: "Keynote Address",
+                event_type: "Keynote Address",
+                venue: "Main Arena",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Ms. Kibibi Abdalla Khamis"
+                    },
+                    {
+                        id: 2,
+                        name: "Evans Odipo"
+                    },
+                    {
+                        id: 3,
+                        name: "Kenya National Innovation Authority"
+                    },
+                    {
+                        id: 4,
+                        name: "Mr. Ismail Maalim Madey"
+                    }
+                ]
+
+            },
+            {
+                id: 3,
+                time: "9:20AM - 10:30AM",
+                event_type: "Plenary Session",
+                event_title: "Plenary Session 7: Harvesting Green Gold: Advancing Coastal Green Economy",
+                venue: "Main Arena",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Baus Taka"
+                    },
+                    {
+                        id: 2,
+                        name: "Takataka ni Mali"
+                    },
+                    {
+                        id: 3,
+                        name: "Challenge Works"
+                    },
+                    {
+                        id: 4,
+                        name: "VSO"
+                    },
+                    {
+                        id: 5,
+                        name: "Ms. Emily Achieng - CECM Department of Water, Natural"
+                    }
+                ]
+            },
+            {
+                id: 4,
+                time: "10:35AM - 12:00PM",
+                event_type: "Plenary Session",
+                event_title: "Plenary Session 8: Exploring the vibrant potential of the Orange Economy: Fostering Innovation, Sustainability and Inclusivity",
+                venue: "Main Arena",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Swahilipot Hub Foundation"
+                    },
+                    {
+                        id: 2,
+                        name: "Africa Digital Media Institute"
+                    },
+                    {
+                        id: 3,
+                        name: "Tanzania House of Talent"
+                    },
+                    {
+                        id: 4,
+                        name: "Sarah Hassan"
+                    },
+                    {
+                        id: 5,
+                        name: "Alliance Francaise"
+                    }
+                ]
+            },
+            {
+                id: 5,
+                time: "12:00PM - 1:00PM",
+                event_type: "Breakout Session",
+                event_title: "Break out Session 3: Sustainable Growth and Innovation: Exploring Opportunities in the Coastal Blue Economy",
+                venue: "Main Arena",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Lilian Wambua"
+                    },
+                    {
+                        id: 2,
+                        name: "CAPYEI"
+                    },
+                    {
+                        id: 3,
+                        name: "Sote Hub"
+                    },
+                    {
+                        id: 4,
+                        name: "BEI Hub - Moderator"
+                    }
+                ]
+            },
+            {
+                id: 6,
+                time: "12:00PM - 1:00PM",
+                event_type: "Breakout Session",
+                event_title: "Break out Session 4: Empowering Kenya's Youth for a Prosperous Future",
+                venue: "Main Arena",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Vijana2Invest"
+                    },
+                    {
+                        id: 2,
+                        name: "KEPSA"
+                    }
+                ]
+            },
+            {
+                id: 7,
+                event_title: "Lunch Break",
+                time: "1:00PM - 2:00PM"
+            },
+            {
+                id: 8,
+                time: "2:00PM - 4:00PM",
+                event_title: "Plenary Session 9: Pitching Thursday - The Deals Den",
+                event_type: "Plenary Session",
+                venue: "Main Auditorium",
+                partners: [
+                    {
+                        id: 1,
+                        name: "YGAP"
+                    },
+                    {
+                        id: 2,
+                        name: "Close the Gap"
+                    },
+                    {
+                        id: 3,
+                        name: "IOME 001"
+                    },
+                    {
+                        id: 4,
+                        name: "WEEE Center"
+                    },
+                    {
+                        id: 5,
+                        name: "Caroline Gichuki - Tesmoh Investment Limited"
+                    },
+                    {
+                        id: 6,
+                        name: "Esther Mwikali - Renew Capital"
+                    },
+                    {
+                        id: 7,
+                        name: "Founders Factory"
+                    },
+                    {
+                        id: 8,
+                        name: "Small Business Development Centers (SBDC)"
+                    }
+                ]
+            },
+            {
+                id: 9,
+                event_title: "Official Closing Ceremony",
+                time: "4:00PM - 5:00PM",
+                venue: "Main Arena",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Swahilipot Hub Foundation"
+                    },
+                    {
+                        id: 2,
+                        name: "Mr. Francis Foleni Thoya - Deputy Governor, Mombasa County Government"
+                    }
+                ]
+            },
+            {
+                id: 10,
+                event_title: "Art Performance and Networking Cocktail",
+                time: "5:00PM - 7:00PM"
+            }
+        ]
     },
+    {
+        id: 5,
+        day: 5,
+        date: 'Fri, 6th Oct',
+        program: [
+            {
+                id: 1,
+                time: "5:00PM - Till late",
+                event_title: "Art Performances - Pwani Gat Talent"
+            }
+        ]
+    }
 ]
 
 
