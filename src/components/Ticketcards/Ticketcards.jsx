@@ -15,16 +15,10 @@ const Ticketcards = () => {
       <div className="container">
         <h3 className="section-heading text-center mb-3">Tickets</h3>
         <div className="section-intro single-col-max mx-auto text-center mb-4">
-          Select a Package that Suits you or your Organization
+          Select a Package that suits you or your Organization
           <br />
-          Having troubles? Or need help contact our
-          <a className="theme-link" href="mailto:jackie@swahilipothub.co.ke"
-            >admin</a
-          >Name
-          orName
-          <a className="theme-link" href="mailto:dev@swahilipothub.co.ke"
-            >developers</a
-          >
+          Having troubles Or need help? 
+          Contact our <a className="theme-link" href="mailto:jackie@swahilipothub.co.ke">admin</a> or <a className="theme-link" href="mailto:dev@swahilipothub.co.ke">developers</a>
         </div>
 
         <div className="row pricing mb-5">
