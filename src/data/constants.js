@@ -778,6 +778,243 @@ export const schedule = [
     }
 ]
 
+export const speakers = [
+    {
+        id: 1,
+        name: "Alice Gugelev",
+        organization: "CEO, GDI Africa"
+    },
+    {
+        id: 2,
+        name: "Rajab Salim",
+        organization: "Swahilipot Hub/GOYN"
+    },
+    {
+        id: 3,
+        name: "Rt. Fathiya Noordean",
+        organization: "Absa Bank PLC"
+    },
+    {
+        id: 4,
+        name: "Nadia Ahmed Abdalla",
+        organization: ""
+    },
+    {
+        id: 4,
+        name: "Mumbi Ndung'u",
+        organization: "Power Learn Project Africa"
+    },
+    {
+        id: 6,
+        name: "Ajra Abdullatif",
+        organization: "Nguvu Collectives"
+    },
+    {
+        id: 7,
+        name: "Ann Rose Maua",
+        organization: "Uzalendo Afrika Initiative"
+    },
+    {
+        id: 8,
+        name: "Mahmoud Noor",
+        organization: "Swahilipot Hub (SPH)"
+    },
+    {
+        id: 9,
+        name: "H.E Peter Maddens",
+        organization: "Belgian Ambassador"
+    },
+    {
+        id: 10,
+        name: "Dr. Ehud Gachugu",
+        organization: "KEPSA"
+    },
+    {
+        id: 11,
+        name: "Ben Roberts",
+        organization: "Liquid Telecoms"
+    },
+    {
+        id: 12,
+        name: "Omar Bakari",
+        organization: "Tanzania Representative, Tangu Yetu/HD Consulting"
+    },
+    {
+        id: 13,
+        name: "Charlene Ruto",
+        organization: ""
+    },
+    {
+        id: 14,
+        name: "H.E Amb Arnaud Suquet",
+        organization: "French Ambassador"
+    },
+    {
+        id: 15,
+        name: "Paul Akwabi",
+        organization: "Youth Innovator"
+    },
+    {
+        id: 16,
+        name: "PS Abubakar Hassan Abubakar",
+        organization: "Principal Secretary - State Department for Investment Promotion, Ministry of Investment, Trade and Industry"
+    },
+    {
+        id: 17,
+        name: "Dr. Vincent Ngundi",
+        organization: ""
+    },
+    {
+        id: 18,
+        name: "Dr. Mbwarali Kame Mboramad",
+        organization: "CECM, Department of Education & Digital Transformation, Mombasa County"
+    },
+    {
+        id: 19,
+        name: "Dr. Hassan",
+        organization: ""
+    },
+    {
+        id: 20,
+        name: "Dr. Emmanuel Nzai",
+        organization: "JKP"
+    },
+    {
+        id: 21,
+        name: "Phillippa Mary",
+        organization: "GDI/GOYN"
+    },
+    {
+        id: 22,
+        name: "Ville Wacklin",
+        organization: "Head of Partnerships/Chief of Staff, Fuzu"
+    },
+    {
+        id: 23,
+        name: "Moses Okundi",
+        organization: "Absa Bank"
+    },
+    {
+        id: 24,
+        name: "Mr. Mohamed Osman",
+        organization: "CECM Department of Tourism, Culture and Trade"
+    },
+    {
+        id: 25,
+        name: "Dr. Bitange Ndemo",
+        organization: "Ambassador of Kenya, Belgium"
+    },
+    {
+        id: 26,
+        name: "Mr. Mohamed Daghar",
+        organization: "Principal Secretary - State Department for Transport"
+    },
+    {
+        id: 27,
+        name: "Madiha Tubman",
+        organization: ""
+    },
+    {
+        id: 28,
+        name: "Maureen Mwaniki",
+        organization: "Huawei"
+    },
+    {
+        id: 29,
+        name: "June Chepkemei",
+        organization: "KenInvest"
+    },
+    {
+        id: 30,
+        name: "Jacqueline Kiplagat",
+        organization: "SPH/GOYN"
+    },
+    {
+        id: 31,
+        name: "Ville Wacklin",
+        organization: "Head of Partnerships/Chief of Staff, Fuzu"
+    },
+    {
+        id: 32,
+        name: "Kaye Matereke",
+        organization: "Tactive Consulting"
+    },
+    {
+        id: 33,
+        name: "Alfred Sigo",
+        organization: "CEO Pwani Youth Network (GOYN/YHN)"
+    },
+    {
+        id: 34,
+        name: "Ms. Sophia Wabosha",
+        organization: "Give for Good (GOYN/YHN)"
+    },
+    {
+        id: 35,
+        name: "Mr. Kenneth Ambani",
+        organization: "CECM Department of Public Service, Administration, Youth, Gender, Social Services and Sport"
+    },
+    {
+        id: 36,
+        name: "Mercy Wanjau",
+        organization: "MBS - Secretary to the Cabinet, Republic of Kenya"
+    },
+    {
+        id: 37,
+        name: "Ms. Kibibi Abdalla Khamis",
+        organization: "CECM Department of Blue Economy, Agriculture and Livestock"
+    },
+    {
+        id: 38,
+        name: "Evans Odipo",
+        organization: "SPH/GOYN"
+    },
+    {
+        id: 39,
+        name: "Mr. Ismail Maalim Madey",
+        organization: "PS Youth Affairs, Arts"
+    },
+    {
+        id: 40,
+        name: "Arafat Mukasa",
+        organization: "SPH/GOYN"
+    },
+    {
+        id: 41,
+        name: "Ms. Emily Achieng",
+        organization: "CECM Department of Water, Natural Resources and Climate Change Resilience"
+    },
+    {
+        id: 42,
+        name: "Daisy Chesang",
+        organization: "SPH/GOYN"
+    },
+    {
+        id: 43,
+        name: "Sarah Hassan",
+        organization: "Actor"
+    },
+    {
+        id: 44,
+        name: "Peter Kibe",
+        organization: "GOYN/GDI"
+    },
+    {
+        id: 45,
+        name: "Caroline Gichuki",
+        organization: "Tesmoh Investment Limited"
+    },
+    {
+        id: 46,
+        name: "Esther Mwikali",
+        organization: "Renew Capital"
+    },
+    {
+        id: 47,
+        name: "Mr. Francis Foleni Thoya",
+        organization: "Deputy Governor, Mombasa County Government"
+    },
+]
 
 export const sponsors = [
     { id: 1, imageURL: "../../assets/images/venue/1.JPG", sponsor_name: "" },
@@ -799,5 +1036,5 @@ export const sponsors = [
     { id: 17, imageURL: "../../assets/images/sponsors/Ministry of ict kenya.png", sponsor_name: "Ministry of ict kenya" },
     { id: 18, imageURL: "../../assets/images/sponsors/Mombasa county logo.png", sponsor_name: "Mombasa county logo" },
     { id: 19, imageURL: "../../assets/images/sponsors/Pure pearl.png", sponsor_name: "Pure pearl" },
-  ];
-  
+];
+
