@@ -1,6 +1,19 @@
 import React from 'react'
 import '../../assets/scss/theme.scss'
 import '../../assets/css/theme.css'
+import { speakers } from '../../data/constants'
+
+function SpeakerList(){
+  return (
+      <div className="row">
+          <ul>
+              {speakers.map((speakers) => (
+                  <li key={speakers.id}>{speakers.name}{/*- {speakers.organization}*/}</li>
+              ))}
+          </ul>
+      </div>
+  );
+}
 
 const Speakers = () => {
   return (
@@ -12,10 +25,14 @@ const Speakers = () => {
           <div className='section-intro text-center single-col-max mx-auto mb-5'>
             Our Curated list of Speakers for the Pwani Innovation Week 2023
           </div>
-          <div className='row'>
-            <h4 className='text-center py-5 text-muted'>
-              Our Speaker List is getting Ready, we will updated Soon!
-            </h4>
+          <div className='row row-cols-3'>
+            {speakers.length > 0 ? (
+              <SpeakerList/>
+            ) : (
+              <h4 className='text-center py-5 text-muted'>
+                Our Speaker List is getting Ready, we will update soon!
+              </h4>
+            )}
           </div>
           {/* <!--//row--> */}
           <div className='speakers-cta text-center py-3'>
@@ -38,4 +55,4 @@ const Speakers = () => {
   )
 }
 
-export default Speakers
+export default Speakers;
