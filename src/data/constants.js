@@ -19,7 +19,7 @@ export const schedule = [
             },
             {
                 id: 2,
-                time: "10.30 AM - 12:45 PM",
+                time: "10.30 AM - 12:30 PM",
                 event_title: "Intellectual Property and Innovation Protection",
                 event_type: "Workshop",
                 venue: "Swahilipot: Amphitheatre",
@@ -36,7 +36,7 @@ export const schedule = [
             },
             {
                 id: 3,
-                time: "10.30 AM - 12:45 PM",
+                time: "10.30 AM - 12:30 PM",
                 event_title: "Data Science",
                 event_type: "Workshop",
                 venue: "Swahilipot: SPH Hall",
@@ -44,18 +44,47 @@ export const schedule = [
                     {
                         id: 1,
                         name: "DataKind"
+                    },
+                    {
+                        id: 2,
+                        name: "IOME"
                     }
                 ]
             },
             {
                 id: 4,
-                time: "1:00 PM - 1:45 PM",
+                time: "12:30 PM - 1:15 PM",
                 event_title: "Lunch Break",
                 event_type: "General",
                 venue: "Swahilipot Hub",
             },
             {
                 id: 5,
+                event_title: "Keynote Address",
+                event_type: "Keynote Address",
+                time: "1:15 PM - 2:15 PM",
+                venue: "Swahilipot: Main Arena",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Rajab Salim - SPH/GOYN"
+                    },
+                    {
+                        id: 2,
+                        name: "Rt. Fathiya Noordean - Absa Bank PLC"
+                    },
+                    {
+                        id: 3,
+                        name: "Kenya Red Cross Society"
+                    },
+                    {
+                        id: 4,
+                        name: "Alice Gugelev - CEO, GDI Africa"
+                    }
+                ]
+            },
+            {
+                id: 6,
                 time: "2:15 PM - 3:30 PM",
                 event_title: "Breaking Barriers: Gender Equality and Innovation in Technology",
                 event_type: "Plenary Session",
@@ -89,7 +118,7 @@ export const schedule = [
                 ]
             },
             {
-                id: 6,
+                id: 7,
                 time: "3:30 PM - 5:00 PM",
                 event_title: "Mastering the Art of Pitching: Strategies for Success in the Modern Business Landscape",
                 event_type: "Master Class",
@@ -102,12 +131,19 @@ export const schedule = [
                 ]
             },
             {
-                id: 7,
+                id: 8,
                 time: "5:00 PM - 6:00 PM",
                 event_title: "Band, Sanaa Mashinani",
                 event_type: "Entertainment",
                 venue: "Swahilipot: Amphitheater",
             },
+            {
+                id: 8,
+                event_title: "Sinema Mtaani Screening",
+                event_type: "Entertainment",
+                time: "6:00 PM - 8:00PM",
+                venue: "Swahilipot: Amphitheatre"
+            }
         ]
     },
     {
@@ -421,7 +457,7 @@ export const schedule = [
             },
             {
                 id: 4,
-                time: "9:30AM - 2:00PM",
+                time: "9:30 AM - 2:00 PM",
                 event_title: "Navigating Coastal Opportunities: Career Pathways in the Coastal Strips - Students Center",
                 event_type: "The Coastal Jobs Fair",
                 moderator: "TBC",
@@ -443,27 +479,40 @@ export const schedule = [
             },
             {
                 id: 4,
-                time: "10:00AM - 4:00PM",
-                event_title: "Hackathon",
+                time: "10:00 AM - 4:00 PM",
+                event_title: "Industrialization and future of work",
+                event_type: "Raspberry Pi Robotics Hackathon",
                 venue: "SPH Hall",
                 partners: [
                     {
                         id: 1,
                         name: "Techkidz Africa"
+                    },
+                    {
+                        id: 2,
+                        name: "Raspberry Pi Foundation"
+                    },
+                    {
+                        id: 3,
+                        name: "Kenya RedCross IOME254"
+                    },
+                    {
+                        id: 4,
+                        name: "Ministry of Education"
                     }
                 ]
             },
             {
                 id: 5,
-                time: "1:00PM - 2:00PM",
+                time: "1:15 PM - 1:45 PM",
                 event_title: "Lunch Break"
             },
             {
                 id: 6,
-                time: "2:00PM - 3:15PM",
+                time: "1:45 PM - 3:30 PM",
                 event_title: "Pioneering Progress: Women in tech Leading the Digital Revolution",
                 event_type: "Plenary Session",
-                moderator: "TBC",
+                moderator: "Maureen Mwaniki",
                 venue: "Main Arena",
                 partners: [
                     {
@@ -472,7 +521,7 @@ export const schedule = [
                     },
                     {
                         id: 2,
-                        name: "Safaricom"
+                        name: "Infitech"
                     },
                     {
                         id: 3,
@@ -572,7 +621,7 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Ms. Kibibi Abdalla Khamis"
+                        name: "Ms. Kibibi Abdalla Khamis - CECM Department of Blue Economy, Agriculture and Livestock"
                     },
                     {
                         id: 2,
@@ -616,6 +665,10 @@ export const schedule = [
                     {
                         id: 5,
                         name: "Ms. Emily Achieng - CECM Department of Water, Natural"
+                    },
+                    {
+                        id: 6,
+                        name: "Arafat Mukasa - SPH/GOYN"
                     }
                 ]
             },
@@ -629,7 +682,7 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Swahilipot Hub Foundation"
+                        name: "Daisy Chesang - Swahilipot Hub Foundation"
                     },
                     {
                         id: 2,
@@ -654,7 +707,7 @@ export const schedule = [
                 time: "12:00PM - 1:00PM",
                 event_type: "Breakout Session",
                 event_title: "Break out Session 3: Sustainable Growth and Innovation: Exploring Opportunities in the Coastal Blue Economy",
-                moderator: "TBC",
+                moderator: "Peter Kibe - GOYN/GDI",
                 venue: "Main Arena",
                 partners: [
                     {
@@ -696,14 +749,14 @@ export const schedule = [
             {
                 id: 6,
                 event_title: "Lunch Break",
-                time: "1:00PM - 2:00PM"
+                time: "1:30 PM - 2:00 PM"
             },
             {
                 id: 7,
                 time: "2:00PM - 4:00PM",
                 event_title: "Plenary Session: Pitching Thursday - The Deals Den",
                 event_type: "Plenary Session",
-                moderator: "MC",
+                moderator: "Small Business Development Centers (SBDC)",
                 venue: "Main Auditorium",
                 partners: [
                     {
@@ -734,10 +787,6 @@ export const schedule = [
                         id: 7,
                         name: "Founders Factory"
                     },
-                    {
-                        id: 8,
-                        name: "Small Business Development Centers (SBDC)"
-                    }
                 ]
             },
             {
@@ -749,7 +798,7 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Swahilipot Hub Foundation"
+                        name: "Mahmood Noor - Chief Mentor, Swahilipot Hub Foundation"
                     },
                     {
                         id: 2,
@@ -771,8 +820,45 @@ export const schedule = [
         program: [
             {
                 id: 1,
+                time: "9:00 AM - 12:30 AM",
+                event_title: "Intergenerational Forum: Driving Digital Transformation through Progressive Legislation",
+                event_type: "Plenary Session",
+                venue: "Main Arena",
+                moderator: "TBC",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Departmental Committee on Information, Communication and Technology; Parliament of Kenya"
+                    },
+                    {
+                        id: 2,
+                        name: "County Assembly Representatives (Coastal Region)"
+                    },
+                    {
+                        id: 3,
+                        name: "Global Opportunity Youth Network"
+                    }
+                ]
+            },
+            {
+                id: 3,
+                time: "2:00 PM - 4:00 PM",
+                event_title: "Junior Achievers Program Building",
+                venue: "Main Arena",
+                event_type: "Plenary Session",
+                moderator: "TBC",
+                partners: [
+                    {
+                        id: 1, 
+                        name: "Junior Achievers Kenya"
+                    }
+                ]
+            },
+            {
+                id: 2,
                 time: "5:00PM - Till late",
-                event_title: "Art Performances - Pwani Gat Talent"
+                event_title: "Art Performances - Pwani Gat Talent",
+                venue: "Amphitheatre"
             }
         ]
     }

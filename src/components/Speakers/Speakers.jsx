@@ -1,8 +1,7 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
-import '../../assets/scss/theme.scss'
-import '../../assets/css/theme.css'
-import { speakers } from '../../data/constants'
+import React from 'react';
+import '../../assets/scss/theme.scss';
+import '../../assets/css/theme.css';
+import { speakers } from '../../data/constants';
 
 const SpeakerItem = ({ name, organization }) => {
   return (
@@ -26,23 +25,22 @@ const SpeakerItem = ({ name, organization }) => {
           </div>
         </div>
       </div>
-      {/*//card*/}
-    </div>
-  )
-}
+    </div> // Closing div was missing here
+  );
+};
 
 const Speakers = () => {
   return (
     <>
       {/* <!-- Speakers Images --> */}
       <section id='speakers-section' className='speakers-section section'>
-        <div class='container'>
+        <div className='container'>
           <h3 className='section-heading text-center mb-3'>Speakers</h3>
           <div className='section-intro text-center single-col-max mx-auto mb-5'>
             Our Curated list of Speakers for the Pwani Innovation Week 2023
           </div>
           <div className='row'>
-          {speakers.length > 0 ? (
+            {speakers.length > 0 ? (
               speakers.map((speaker) => (
                 <SpeakerItem
                   key={speaker.id}
@@ -69,12 +67,11 @@ const Speakers = () => {
         {/* <!--//container--> */}
       </section>
       {/* <!--//speakers-section--> */}
-
       <div className='container'>
         <hr />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Speakers
+export default Speakers;
