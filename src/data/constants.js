@@ -787,7 +787,7 @@ export const speakers = [
     {
         id: 2,
         name: "Rajab Salim",
-        organization: "Swahilipot Hub/GOYN"
+        organization: "Swahilipot Hub/Global Opportunity Youth Network"
     },
     {
         id: 3,
@@ -882,7 +882,7 @@ export const speakers = [
     {
         id: 21,
         name: "Phillippa Mary",
-        organization: "GDI/GOYN"
+        organization: "GDI/Global Opportunity Youth Network"
     },
     {
         id: 22,
@@ -927,7 +927,7 @@ export const speakers = [
     {
         id: 30,
         name: "Jacqueline Kiplagat",
-        organization: "SPH/GOYN"
+        organization: "SPH/Global Opportunity Youth Network"
     },
     {
         id: 31,
@@ -942,12 +942,12 @@ export const speakers = [
     {
         id: 33,
         name: "Alfred Sigo",
-        organization: "CEO Pwani Youth Network (GOYN/YHN)"
+        organization: "CEO Pwani Youth Network (Global Opportunity Youth Network/YHN)"
     },
     {
         id: 34,
         name: "Ms. Sophia Wabosha",
-        organization: "Give for Good (GOYN/YHN)"
+        organization: "Give for Good (Global Opportunity Youth Network/YHN)"
     },
     {
         id: 35,
@@ -967,7 +967,7 @@ export const speakers = [
     {
         id: 38,
         name: "Evans Odipo",
-        organization: "SPH/GOYN"
+        organization: "SPH/Global Opportunity Youth Network"
     },
     {
         id: 39,
@@ -977,7 +977,7 @@ export const speakers = [
     {
         id: 40,
         name: "Arafat Mukasa",
-        organization: "SPH/GOYN"
+        organization: "SPH/Global Opportunity Youth Network"
     },
     {
         id: 41,
@@ -987,7 +987,7 @@ export const speakers = [
     {
         id: 42,
         name: "Daisy Chesang",
-        organization: "SPH/GOYN"
+        organization: "SPH/Global Opportunity Youth Network"
     },
     {
         id: 43,
@@ -997,7 +997,7 @@ export const speakers = [
     {
         id: 44,
         name: "Peter Kibe",
-        organization: "GOYN/GDI"
+        organization: "Global Opportunity Youth Network/GDI"
     },
     {
         id: 45,
@@ -1026,7 +1026,7 @@ export const sponsors = [
     { id: 7, imageURL: "../../assets/images/sponsors/Communications-Authority-Of-Kenya-Logo.png", sponsor_name: "Communications-Authority-Of-Kenya-Logo" },
     { id: 8, imageURL: "../../assets/images/sponsors/French ambassador.png", sponsor_name: "French ambassador" },
     { id: 9, imageURL: "../../assets/images/sponsors/GDI.png", sponsor_name: "GDI" },
-    { id: 10, imageURL: "../../assets/images/sponsors/GOYN-MOMBASA_.png", sponsor_name: "GOYN-MOMBASA" },
+    { id: 10, imageURL: "../../assets/images/sponsors/Global Opportunity Youth Network-MOMBASA_.png", sponsor_name: "Global Opportunity Youth Network-MOMBASA" },
     { id: 11, imageURL: "../../assets/images/sponsors/Huawei.png", sponsor_name: "Huawei" },
     { id: 12, imageURL: "../../assets/images/sponsors/ICT authoruty.png", sponsor_name: "ICT authoruty" },
     { id: 13, imageURL: "../../assets/images/sponsors/Jumuiya ya Pwani.png", sponsor_name: "Jumuiya ya Pwani" },

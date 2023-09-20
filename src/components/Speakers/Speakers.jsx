@@ -4,21 +4,6 @@ import '../../assets/scss/theme.scss'
 import '../../assets/css/theme.css'
 import { speakers } from '../../data/constants'
 
-function SpeakerList() {
-  return (
-    <div className='row'>
-      <ul>
-        {speakers.map((speakers) => (
-          <li key={speakers.id}>
-            {speakers.name}
-            {/*- {speakers.organization}*/}
-          </li>
-        ))}
-      </ul>
-    </div>
-  )
-}
-
 const SpeakerItem = ({ name, organization }) => {
   return (
     <div className='col-6 col-lg-3 mb-4'>
