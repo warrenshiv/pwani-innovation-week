@@ -8,7 +8,7 @@ function SpeakerList(){
       <div className="row">
           <ul>
               {speakers.map((speakers) => (
-                  <li key={speakers.id}>{speakers.name}{/*- {speakers.organization}*/}</li>
+                  <li key={speakers.id}>{speakers.name}{/*- org: {speakers.organization}*/}</li>
               ))}
           </ul>
       </div>
