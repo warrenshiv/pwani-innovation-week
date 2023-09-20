@@ -1,4 +1,4 @@
-Pwani Innovation Week Website Documentation
+# Pwani Innovation Week Website Documentation
 
 Table of Contents
 1. Introduction	1
