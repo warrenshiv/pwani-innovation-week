@@ -12,7 +12,7 @@ root.render(
     <Router>
       <Layout>
         <App />
-      </Layout>ß
+      </Layout>
     </Router>
   </React.StrictMode>
 );

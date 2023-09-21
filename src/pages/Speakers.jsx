@@ -5,8 +5,6 @@ const Speakers = () => {
   return (
     <>
       <MastHead />
-    
-
       <SpeakersSection />
     </>
   )

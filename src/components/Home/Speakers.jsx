@@ -1,7 +1,8 @@
-import React from 'react';
+import React from 'react'
+import { Link } from 'react-router-dom'
 // import '../../assets/scss/theme.scss';
 // import '../../assets/css/theme.css';
-import { speakers } from '../../data/constants';
+import { speakers } from '../../data/constants'
 
 const SpeakerItem = ({ name, organization }) => {
   return (
@@ -25,9 +26,9 @@ const SpeakerItem = ({ name, organization }) => {
           </div>
         </div>
       </div>
-    </div> // Closing div was missing here
-  );
-};
+    </div>
+  )
+}
 
 const Speakers = () => {
   return (
@@ -41,13 +42,15 @@ const Speakers = () => {
           </div>
           <div className='row'>
             {speakers.length > 0 ? (
-              speakers.map((speaker) => (
-                <SpeakerItem
-                  key={speaker.id}
-                  name={speaker.name}
-                  organization={speaker.organization}
-                />
-              ))
+              speakers
+                .slice(0, 12)
+                .map((speaker) => (
+                  <SpeakerItem
+                    key={speaker.id}
+                    name={speaker.name}
+                    organization={speaker.organization}
+                  />
+                ))
             ) : (
               <h4 className='text-center py-5 text-muted'>
                 Our Speaker List is getting Ready, we will update soon!
@@ -56,22 +59,17 @@ const Speakers = () => {
           </div>
           {/* <!--//row--> */}
           <div className='speakers-cta text-center py-3'>
-            <a
-              className='btn btn-primary btn-lg'
-              href='https://afritickets.events/2270-pwani-innovation-week'
-            >
-              Get Tickets
-            </a>
+            <Link to='/speakers' className='btn btn-primary btn-lg'>
+              View All Speakers
+            </Link>
           </div>
         </div>
-        {/* <!--//container--> */}
       </section>
-      {/* <!--//speakers-section--> */}
       <div className='container'>
         <hr />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Speakers;
+export default Speakers

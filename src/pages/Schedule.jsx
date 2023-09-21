@@ -1,7 +1,12 @@
+import MastHead from '../components/Schedule/MastHead'
+import ScheduleSection from '../components/Schedule/ScheduleSection'
 
 const Schedule = () => {
   return (
-    <div>Schedule</div>
+    <>
+      <MastHead />
+      <ScheduleSection />
+    </>
   )
 }
 
