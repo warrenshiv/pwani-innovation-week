@@ -1,9 +1,9 @@
-import Home from './pages/Home';
+import AppRoutes from './config/AppRoutes';
 
 const App = () => {
   return (
     <>
-      <Home />
+      <AppRoutes />
     </>
   );
 }
