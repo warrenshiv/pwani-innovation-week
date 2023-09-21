@@ -1,14 +1,14 @@
-import { Link } from 'react-router-dom'
+import MastHead from '../components/Speakers/MastHead'
+import SpeakersSection from '../components/Speakers/SpeakersSection'
 
 const Speakers = () => {
   return (
-    <div>
-      Speakers
-      <Link to='/'>Home</Link> {' | '}
-      <Link to='/speakers'>Speakers</Link> {' | '}
-      <Link to='/schedule'>About</Link>
-      <br />
-    </div>
+    <>
+      <MastHead />
+    
+
+      <SpeakersSection />
+    </>
   )
 }
 

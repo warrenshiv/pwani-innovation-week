@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import '../../assets/scss/theme.scss'
-import '../../assets/css/theme.css'
+// import '../../assets/scss/theme.scss'
+// import '../../assets/css/theme.css'
 import { schedule } from '../../data/constants'
 
 const ScheduleItem = ({ time, title, venue, type }) => {

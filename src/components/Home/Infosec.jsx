@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../assets/scss/theme.scss'
+// import '../../assets/scss/theme.scss'
 import one from '../../assets/images/venue/1.JPG'
 import two from '../../assets/images/venue/2.jpg'
 import three from '../../assets/images/venue/3.jpg'
@@ -30,7 +30,7 @@ import tactive from '../../assets/images/sponsors/tactive.png'
 // import TUL from  "../../assets/images/sponsors/taifa unga logo.png"
 import taifa from '../../assets/images/sponsors/taifa.png'
 // import "../../assets/scss/theme.scss"
-import '../../assets/css/theme.css'
+// import '../../assets/css/theme.css'
 
 const Infosec = () => {
   //     const sponsorsImages = [

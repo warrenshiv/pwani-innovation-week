@@ -1,12 +1,10 @@
-import Masthead from '../components/Masthead/Masthead'
-import Statsblock from '../components/Statsblock/Statsblock'
-import About from '../components/About/About'
-import Speakers from '../components/Speakers/Speakers'
-import Schedule from '../components/Schedule/Schedule'
-import Ticketcards from '../components/Ticketcards/Ticketcards'
-import Infosec from '../components/Infosect/Infosec'
-// import SponsorSection from '../../components/sponsor/SponsorSection'
-// import "../../assets/js/main.js"
+import Masthead from '../components/Home/Masthead'
+import Statsblock from '../components/Home/Statsblock'
+import About from '../components/Home/About'
+import Speakers from '../components/Home/Speakers'
+import Schedule from '../components/Home/Schedule'
+import Ticketcards from '../components/Home/Ticketcards'
+import Infosec from '../components/Home/Infosec'
 
 const Home = () => {
   return (
@@ -18,7 +16,6 @@ const Home = () => {
       <Schedule />
       <Ticketcards />
       <Infosec />
-      {/* <SponsorSection /> */}
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
-import "../../assets/scss/theme.scss"
-import "../../assets/css/theme.css"
+// import "../../assets/scss/theme.scss"
+// import "../../assets/css/theme.css"
 const Statsblock = () => {
   return (
     <>
