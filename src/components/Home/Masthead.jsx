@@ -1,8 +1,6 @@
-import React from 'react'
-// import "./Masthead.scss"
-// import "../../assets/scss/theme.scss"
-import "../../assets/css/custom.css"
-import "../../assets/css/theme.css"
+
+// import "../../assets/css/custom.css"
+// import "../../assets/css/theme.css"
 import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 

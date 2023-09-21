@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
-import '../../assets/scss/theme.scss'
-import '../../assets/css/custom.css'
-import '../../assets/css/theme.css'
+// import '../../assets/scss/theme.scss'
+// import '../../assets/css/custom.css'
+// import '../../assets/css/theme.css'
 import PreviousPIW from './PreviousPIW'
 import AboutSection from './AboutSection'
 // import countdownTime from '../../assets/js/main.js'

@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../assets/scss/theme.scss';
-import '../../assets/css/theme.css';
+// import '../../assets/scss/theme.scss';
+// import '../../assets/css/theme.css';
 import { speakers } from '../../data/constants';
 
 const SpeakerItem = ({ name, organization }) => {
@@ -29,7 +29,7 @@ const SpeakerItem = ({ name, organization }) => {
   );
 };
 
-const Speakers = () => {
+const SpeakersSection = () => {
   return (
     <>
       {/* <!-- Speakers Images --> */}
@@ -74,4 +74,4 @@ const Speakers = () => {
   );
 };
 
-export default Speakers;
+export default SpeakersSection;

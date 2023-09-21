@@ -1,10 +1,12 @@
-// import './App.css';
-import Home from './pages/home/Home';
+import AppRoutes from './config/AppRoutes';
+import "../src/assets/scss/theme.scss"
+import "../src/assets/css/theme.css"
+import '../src/assets/css/custom.css'
 
-function App() {
+const App = () => {
   return (
     <>
-      <Home />
+      <AppRoutes />
     </>
   );
 }

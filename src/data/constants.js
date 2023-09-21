@@ -918,7 +918,7 @@ export const speakers = [
     {
         id: 11,
         name: "Ben Roberts",
-        organization: "Liquid Telecoms"
+        organization: "Liquid Intelligent Technologies"
     },
     {
         id: 12,
