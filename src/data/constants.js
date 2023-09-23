@@ -300,6 +300,7 @@ export const schedule = [
                 event_title: "Keynote Address",
                 event_type: "Keynote Address",
                 time: "1:30 PM - 1:45 PM",
+                venue: "Amphitheatre",
                 partners: [
                     {
                         id: 1,
