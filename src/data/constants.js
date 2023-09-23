@@ -250,7 +250,6 @@ export const schedule = [
                 id: 3,
                 time: "11.00 AM - 11:20 AM",
                 event_title: "Health break",
-                event_type: "General",
             },
             {
                 id: 4,
@@ -294,7 +293,6 @@ export const schedule = [
                 id: 5,
                 time: "12:45 PM - 1:30 PM",
                 event_title: "Lunch Break",
-                event_type: "General",
                 venue: "Swahilipot Hub",
             },
             {
@@ -542,7 +540,6 @@ export const schedule = [
             {
                 id: 4,
                 event_title: "Lunch Break",
-                event_type: "General",
                 time: "1:15 PM - 1:45 PM"
             },
             {
@@ -589,7 +586,7 @@ export const schedule = [
             },
             {
                 id: 6,
-                time: "3:30PM - 5:30PM",
+                time: "3:30 PM - 5:30 PM",
                 event_title: "Guiding the Future: The Transformation Power of Mentorship, Sailing Beyond Borders",
                 event_type: "Plenary Session",
                 moderator: "Ms. Sophia Wabosha - Give for Good (GOYN/YHN)",
