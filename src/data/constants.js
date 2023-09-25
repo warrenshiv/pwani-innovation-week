@@ -28,10 +28,6 @@ export const schedule = [
                         id: 1,
                         name: "MMS Advocates"
                     },
-                    {
-                        id: 2,
-                        name: "Office of the Data Protection Commissioner"
-                    }
                 ]
             },
             {
@@ -154,7 +150,7 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Konza"
+                        name: "Konza City"
                     },
                     {
                         id: 2,
@@ -162,7 +158,7 @@ export const schedule = [
                     },
                     {
                         id: 3,
-                        name: "Mombasa County"
+                        name: "Mombasa County Government"
                     }
                 ]
             }
@@ -190,15 +186,15 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Mahmoud Noor - Chief Mentor, SPH"
+                        name: "Mahmoud Noor - Chief Mentor, Swahilipot Hub"
                     },
                     {
                         id: 2,
-                        name: "Osman Varwan - Chairperson, PIW: 2023"
+                        name: "Osman Varwan - Chairperson, Pwani Innovation Week: 2023"
                     },
                     {
                         id: 3,
-                        name: "H.E Peter Maddens, Belgian Ambassador"
+                        name: "H.E Peter Maddens - Belgian Ambassador to Kenya"
                     },
                     {
                         id: 4,
@@ -206,11 +202,11 @@ export const schedule = [
                     },
                     {
                         id: 5,
-                        name: "Ben Roberts, Group CTO, Liquid Inteligence Technologies"
+                        name: "Ben Roberts - Group CTO, Liquid Inteligence Technologies"
                     },
                     {
                         id: 6,
-                        name: "Omar Bakari, Tangu Yetu/HD Consulting"
+                        name: "Omar Bakari - Tangu Yetu/HD Consulting"
                     },
                     {
                         id: 7,
@@ -242,7 +238,7 @@ export const schedule = [
                     },
                     {
                         id: 14,
-                        name: "Dr. Safia Lui, Board Chairlady, SPH"
+                        name: "Dr. Safia Lui, Board Chairlady, Swahilipot Hub"
                     }
                 ]
             },
@@ -662,7 +658,7 @@ export const schedule = [
                     },
                     {
                         id: 2,
-                        name: "Tony Odipo - MPP"
+                        name: "Tony Odipo - Oceania Pacesetter, Mombasa Plastics Prize Winner"
                     },
                     {
                         id: 3,
@@ -1003,27 +999,27 @@ export const speakers = [
     {
         id: 1,
         name: "Alice Gugelev",
-        organization: "CEO, GDI Africa"
+        organization: "CEO, Global Development Incubator Africa"
     },
     {
         id: 2,
         name: "Rajab Salim",
-        organization: "Chairperson,Global Opportunity Youth Network Youth Advisory Group, SPH/GOYN"
+        organization: "Chairperson, Global Opportunity Youth Network Youth Advisory Group, SPH/GOYN"
     },
     {
         id: 3,
         name: "Rt. Fathiya Noordean",
-        organization: "Regional Manager,Coast Region,Absa Bank PLC"
+        organization: "Regional Manager, Coast Region,Absa Bank PLC"
     },
     {
         id: 4,
         name: "Nadia Ahmed Abdalla",
-        organization: "Former CAS ICT, Innovation and Youth Affairs,Founder of Africa ni Mimi"
+        organization: "Former CAS ICT, Innovation and Youth Affairs, Founder of Africa ni Mimi"
     },
     {
         id: 5,
         name: "Mumbi Ndung'u",
-        organization: "Chief of Growth and Operations, Power Learn Project Africa (PLP)"
+        organization: "Chief of Growth and Operations, Power Learn Project Africa"
     },
     {
         id: 6,
@@ -1033,27 +1029,27 @@ export const speakers = [
     {
         id: 7,
         name: "Ann Rose Maua",
-        organization: "Executive Director-Uzalendo Afrika Initiative"
+        organization: "Executive Director, Uzalendo Afrika Initiative"
     },
     {
         id: 8,
         name: "Mahmoud Noor",
-        organization: "Chief Mentor,Swahilipot Hub (SPH)"
+        organization: "Chief Mentor, Swahilipot Hub"
     },
     {
         id: 9,
         name: "H.E Peter Maddens",
-        organization: "Belgian Ambassador"
+        organization: "Belgian Ambassador to Kenya"
     },
     {
         id: 10,
         name: "Dr. Ehud Gachugu",
-        organization: "PHD, HSC, Project Director, Ajira Digital Program, KEPSA"
+        organization: "PHD, HSC, Project Director, Ajira Digital Program, Kenya Private Sector Alliance"
     },
     {
         id: 11,
         name: "Ben Roberts",
-        organization: "Group CTO Liquid Intelligent Technologies"
+        organization: "Group CTO, Liquid Intelligent Technologies"
     },
     {
         id: 12,
@@ -1068,11 +1064,11 @@ export const speakers = [
     {
         id: 15,
         name: "Paul Akwabi",
-        organization: "Tech Kidz,Youth Innovator"
+        organization: "Tech Kidz, Youth Innovator"
     },
     {
         id: 16,
-        name: "PS Abubakar Hassan Abubakar",
+        name: "PS. Abubakar Hassan Abubakar",
         organization: "Principal Secretary - State Department for Investment Promotion, Ministry of Investment, Trade and Industry"
     },
     {
@@ -1083,7 +1079,7 @@ export const speakers = [
     {
         id: 18,
         name: "Dr. Mbwarali Kame Mboramad",
-        organization: "CECM, Department of Education & Digital Transformation, Mombasa County"
+        organization: "County Executive Committee Member, Department of Education & Digital Transformation, Mombasa County"
     },
     {
         id: 19,
@@ -1093,12 +1089,12 @@ export const speakers = [
     {
         id: 20,
         name: "Dr. Emmanuel Nzai",
-        organization: "JKP"
+        organization: "Jumuiya ya Kaunti za Pwani"
     },
     {
         id: 21,
         name: "Phillippa Mary",
-        organization: "GDI/Global Opportunity Youth Network"
+        organization: "Global Development Incubator/Global Opportunity Youth Network"
     },
     {
         id: 22,
@@ -1108,17 +1104,17 @@ export const speakers = [
     {
         id: 23,
         name: "Moses Okundi",
-        organization: "Absa Bank"
+        organization: "Absa Bank PLC"
     },
     {
         id: 24,
         name: "Mr. Mohamed Osman",
-        organization: "CECM Department of Tourism, Culture and Trade"
+        organization: "County Executive Committee Member, Department of Tourism, Culture and Trade"
     },
     {
         id: 25,
         name: "Dr. Bitange Ndemo",
-        organization: "Ambassador of Kenya, Belgium"
+        organization: "Ambassador of Kenya, Belgium (Virtual)"
     },
     {
         id: 26,
@@ -1138,12 +1134,12 @@ export const speakers = [
     {
         id: 29,
         name: "June Chepkemei",
-        organization: "Managing Director,KenInvest"
+        organization: "Managing Director, KenInvest"
     },
     {
         id: 30,
         name: "Jacqueline Kiplagat",
-        organization: "Project Associate, SPH/Global Opportunity Youth Network"
+        organization: "Project Associate, Swahilipot Hub/Global Opportunity Youth Network"
     },
     {
         id: 31,
@@ -1158,17 +1154,17 @@ export const speakers = [
     {
         id: 33,
         name: "Alfred Sigo",
-        organization: "CEO Pwani Youth Network (Global Opportunity Youth Network/YHN)"
+        organization: "CEO, Pwani Youth Network (Global Opportunity Youth Network/Youth Hub Network)"
     },
     {
         id: 34,
         name: "Ms. Sophia Wabosha",
-        organization: "Give for Good (Global Opportunity Youth Network/YHN)"
+        organization: "Give for Good (Global Opportunity Youth Network/Youth Hub Network)"
     },
     {
         id: 35,
         name: "Mr. Kenneth Ambani",
-        organization: "CECM Department of Public Service, Administration, Youth, Gender, Social Services and Sport"
+        organization: "County Executive Committee Member, Department of Public Service, Administration, Youth, Gender, Social Services and Sport"
     },
     {
         id: 36,
@@ -1178,32 +1174,32 @@ export const speakers = [
     {
         id: 37,
         name: "Ms. Kibibi Abdalla Khamis",
-        organization: "CECM Department of Blue Economy, Agriculture and Livestock"
+        organization: "County Executive Committee Member, Department of Blue Economy, Agriculture and Livestock"
     },
     {
         id: 38,
         name: "Evans Odipo",
-        organization: "SPH/Global Opportunity Youth Network"
+        organization: "Swahilipot Hub/Global Opportunity Youth Network"
     },
     {
         id: 39,
         name: "Mr. Ismail Maalim Madey",
-        organization: "PS Youth Affairs, Arts"
+        organization: "Principal Secretary, Youth Affairs, Arts"
     },
     {
         id: 40,
         name: "Arafat Mukasa",
-        organization: "SPH/Global Opportunity Youth Network"
+        organization: "Swahilipot Hub/Global Opportunity Youth Network"
     },
     {
         id: 41,
         name: "Ms. Emily Achieng",
-        organization: "CECM Department of Water, Natural Resources and Climate Change Resilience"
+        organization: "County Executive Committee Member, Department of Water, Natural Resources and Climate Change Resilience"
     },
     {
         id: 42,
         name: "Daisy Chesang",
-        organization: "SPH/Global Opportunity Youth Network"
+        organization: "Swahilipot Hub/Global Opportunity Youth Network"
     },
     {
         id: 43,
@@ -1213,7 +1209,7 @@ export const speakers = [
     {
         id: 44,
         name: "Peter Kibe",
-        organization: "Global Opportunity Youth Network/GDI"
+        organization: "Global Opportunity Youth Network/Global Development Incubator"
     },
     {
         id: 45,
@@ -1233,7 +1229,7 @@ export const speakers = [
     {
         id: 48,
         name: "Mr. JP Okwiri",
-        organization: "CEO Konza Technopolis City"
+        organization: "CEO, Konza Technopolis City"
     },
     {
         id: 49,
@@ -1243,7 +1239,7 @@ export const speakers = [
     {
         id: 50,
         name: "Mgeni Mboto Hassan",
-        organization: "Board Member Tourism Board of Kenya"
+        organization: "Board Member, Tourism Board of Kenya"
     },
     {
         id: 51,
@@ -1261,51 +1257,44 @@ export const speakers = [
         organization: "Communication Authority"
     },
     {
-        id: 54,
-        name: "H.E Peter Maddens",
-        organization: "Belgium Ambassador to Kenya"
-    },
-    {
         id: 55,
         name: "H.E Al-Salman",
         organization: "Ambassador Kingdom of Saudi Arabia to Kenya"
     },
     {
         id: 56,
-        name: "H.E Amb Arnaud Suquet",
-        organization: "French Ambassador to kenya: Harnessing culture and Heritage to promote Socioeconomic value"
+        name: "H.E. Amb Arnaud Suquet",
+        organization: "French Ambassador to Kenya"
     },
     {
         id: 57,
-        name: "PS Abubakar Hassan Abubakar",
-        organization: "Principal Secretary-state Department for Investment promotion, Ministry of Investment, Trade and Industry"
+        name: "P.S. Abubakar Hassan Abubakar",
+        organization: "Principal Secretary, state Department for Investment promotion, Ministry of Investment, Trade and Industry"
     },
     {
         id: 58,
-        name: "Mr. Eliud Owalo",
+        name: "Hon. Eliud Owalo",
         organization: "Cabinet Secretary, Ministry of Information, Communication and the Digital Economy"
     },
     {
         id: 59,
-        name: "HE Abdulswamad Sherrif Nassir",
+        name: "H.E. Abdulswamad Sherrif Nassir",
         organization: "Governor, Mombasa County Governor - Chief Guest"
     },
     {
         id: 60,
         name: "Lucas Omolo",
-        organization: "Kanza City"
+        organization: "Konza City"
     },
-   
     {
         id: 61,
         name: "Dr. Tonny Omwansa",
-        organization: "CEO, Kenya National Innovation Agency(KeNIA)"
+        organization: "CEO, Kenya National Innovation Agency (KeNIA)"
     },
-   
     {
         id: 62,
         name: "Brian Keya",
-        organization: "Yunitok Manager, UNICEF"
+        organization: "Yunitok Manager, United Nations Children's Fund (UNICEF)"
     },
     {
         id: 63,
@@ -1330,12 +1319,12 @@ export const speakers = [
     {
         id: 67,
         name: "Bosco Juma",
-        organization: "Executive Director,Big Ship CBO CECM - Taita Taveta"
+        organization: "Executive Director, Big Ship CBO County Executive Committee Member - Taita Taveta"
     },
     {
         id: 68,
         name: "Ruth Maisha Dama",
-        organization: "CECM, Youth, Gender"
+        organization: "County Executive Committee Member, Youth, Gender"
     },
     {
         id: 71,
@@ -1359,7 +1348,7 @@ export const speakers = [
     },
     {
         id: 76,
-        name: "Dr. Fredrick Manthi ",
+        name: "Dr. Fredrick Manthi",
         organization: "National Museum of Kenya"
     },
     {
@@ -1385,7 +1374,7 @@ export const speakers = [
     {
         id: 81,
         name: "Espera Donouvussi",
-        organization: "Proggramme Manager, Youth Heritage Africa ICCROM(virtual)"
+        organization: "Programme Manager, Youth Heritage Africa ICCROM(virtual)"
     },
     {
         id: 83,
@@ -1415,7 +1404,7 @@ export const speakers = [
     {
         id: 88,
         name: "Yvonne Maua",
-        organization: "Kanza Technopolis City"
+        organization: "Konza Technopolis City"
     },
     {
         id: 89,
@@ -1425,7 +1414,7 @@ export const speakers = [
     {
         id: 90,
         name: "Tony Odipo",
-        organization: "MPP"
+        organization: "Oceania Pacestter, Mombasa Plastics Prize Winner"
     },
     {
         id: 91,
@@ -1434,21 +1423,29 @@ export const speakers = [
     },
     {
         id: 92,
-        name: "Issa Timamy",
+        name: "H.E. Issa Timamy",
         organization: "Governer, Lamu County"
     },
     {
         id: 93,
         name: "Hellen Anyango",
-        organization: "Program Manager, VSO kenya"
+        organization: "Program Manager, Voluntary Services Overseas (VSO) Kenya"
     },
     {
         id: 94,
-        name: "Josphine Ndumbaki",
+        name: "Josephine Ndambuki",
         organization: "Konza City"
     },
-
-  
+    {
+        id: 95,
+        name: "Harry Hare",
+        organization: "Chairman, CIO Africa"
+    },
+    {
+        id: 96,
+        name: "Dr. Safia Lui",
+        organization: "Board Chairlady, Swahilipot Hub Foundation"
+    }
 ]
 
 export const sponsors = [
