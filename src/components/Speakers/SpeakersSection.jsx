@@ -40,11 +40,15 @@ const SpeakersSection = () => {
     setFilteredSpeakers(filtered);
   };
 
-  const handleKeyDown = (e) => {
-    if (e.key === "Enter") {
-      handleSearch();
-    }
-  };
+  const handleKeyUp = (e) => {
+    const userInput = e.target.value.toLowerCase();
+    setSearchQuery(userInput);
+
+    const filtered = speakers.filter((speaker) =>
+      speaker.name.toLowerCase().includes(userInput)  
+    );
+  setFilteredSpeakers(filtered);
+};
 
   return (
     <>
@@ -62,7 +66,9 @@ const SpeakersSection = () => {
               className="form-control"
               placeholder="Search Speakers"
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)} onKeyDown={handleKeyDown}
+              // onKeyUp={handleKeyUp}
+              onChange={handleKeyUp}
+              // onChange={(e) => setSearchQuery(e.target.value)} onKeyUp={handleKeyUp}
             />
 
             <div>
