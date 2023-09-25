@@ -3,7 +3,7 @@ import React from "react";
 function GetInvolved() {
   return (
     <section class="schedule-section section">
-      <div className="get-involved">
+      <div className="">
         <h3 className="section-heading text-center mb-5">
           Swahilipot Hub PIW Delegate Registrations (Free Pass)
         </h3>
