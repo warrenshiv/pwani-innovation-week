@@ -1445,6 +1445,11 @@ export const speakers = [
         id: 96,
         name: "Dr. Safia Lui",
         organization: "Board Chairlady, Swahilipot Hub Foundation"
+    },
+    {
+        id: 97,
+        name: "Eng. John Tanui, MBS",
+        organization: ""
     }
 ]
 
