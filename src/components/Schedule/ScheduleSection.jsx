@@ -73,8 +73,17 @@ const ScheduleSection = () => {
                 aria-controls={`tab-${day.id}-content`}
                 aria-selected={activeTab === `tab-${day.id}`}
               >
-                <span className="">Day {day.day}</span>
-                <span className="">({day.date})</span>
+                {day.day === 'Hackathons' ? (
+                  <>
+                    <span className=''>{day.day}</span>
+                    <span className=''>({day.date})</span>
+                  </>
+                ) : (
+                  <>
+                    <span className=''>Day {day.day}</span>
+                    <span className=''>({day.date})</span>
+                  </>
+                )}
               </a>
             </li>
           ))}
@@ -95,7 +104,7 @@ const ScheduleSection = () => {
               <h4 className="text-center py-5 text-muted">
                 {day.program.length === 0
                   ? `Day ${day.day} Schedule Will be Updated Soon`
-                  : `Day ${day.day} Schedule`}
+                  : day.day === 'Hackathons' ? `${day.day} Schedule` : `Day ${day.day} Schedule`}
               </h4>
               {day.program.map((event, index) => (
                 <React.Fragment key={event.id}>
