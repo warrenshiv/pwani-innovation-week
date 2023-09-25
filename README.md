@@ -1,16 +1,21 @@
 # Pwani Innovation Week Website Documentation
 
 **Table of Contents**
-1. #introduction.
-2. #Source code access.
-3. #technology-stack.
-4. #cms-integration.
-5. #real-time-database-management.
-6. #runtime-environment.
-7. #performance-and-speed.
-8. #security.
-9. #Accessing-content.
-10.#conclusion.
+1. [Introduction](#introduction)
+2. [Source Code Access](#source-code-access)
+3. [Technology Stack](#technology-stack)
+4. [CMS Integration](#cms-integration)
+5. [Real-time Database Management](#real-time-database-management)
+6. [Runtime Environment](#runtime-environment)
+7. [Performance and Speed](#performance-and-speed)
+8. [Security](#security)
+9. [Accessing Content](#accessing-content)
+   - [Speakers](#speakers)
+   - [Sponsors](#sponsors)
+   - [Venue](#venue)
+   - [Tickets](#tickets)
+   - [Schedule](#schedule)
+10. [Conclusion](#conclusion)
 
 ## Introduction
 This documentation outlines the source code access,technologies and strategies employed to build and maintain the Pwani Innovation Week website, with a focus on Content Management System (CMS) integration, real-time database management, runtime environment, performance, speed, and security. Additionally, it provides guidelines for updating scheduling, ticketing, speakers, venue, and sponsors on the website.
@@ -53,6 +58,9 @@ The website content, including scheduling, ticketing, speakers, venue, and spons
 2. Defining the content structure in the CMS, including content types, fields, and relationships.
 3. Developing a custom API or using existing CMS APIs to fetch data from the CMS and display it on the React front-end.
 4. Ensuring secure access to the CMS by configuring authentication and access controls.
+
+## Real-time Database Management
+Real-time data management is crucial for the Pwani Innovation Week website. Firebase Real-time Database is will be used to manage dynamic data efficiently.
 
 ## Runtime Environment
 We have Ensured a reliable runtime environment for our React application. Key consideration include:
@@ -121,8 +129,3 @@ By following these steps, you can easily access and manage information related t
 ## Conclusion
 In conclusion, this documentation serves as a comprehensive guide to the creation and upkeep of the Pwani Innovation Week website. It delves into various aspects, from source code access to the technologies employed, with a focus on Content Management System (CMS) integration, real-time database management, runtime environment, performance, speed, and security.
 Lastly, the documentation provides clear instructions on accessing various types of content, including information about speakers, sponsors, venue details, tickets, and the event schedule. 
-
-
-
-
-
