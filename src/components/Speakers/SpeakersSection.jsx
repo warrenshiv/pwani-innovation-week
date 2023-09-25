@@ -59,7 +59,6 @@ const SpeakersSection = () => {
           <div className="section-intro text-center single-col-max mx-auto mb-5">
             Our Curated list of Speakers for the Pwani Innovation Week 2023
           </div>
-
           <div className="speakers-cta text-center py-3 d-flex" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <input
               type="text" style={{ width: '300px', height: '50px', padding: '5px' }}
@@ -88,6 +87,8 @@ const SpeakersSection = () => {
                 />
               ))
             ) : speakers.length > 0 ? (
+          <div className='row'>
+            {speakers.length > 0 ? (
               speakers.map((speaker) => (
                 <SpeakerItem
                   key={speaker.id}
@@ -122,3 +123,4 @@ const SpeakersSection = () => {
 };
 
 export default SpeakersSection;
+

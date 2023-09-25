@@ -23,7 +23,7 @@ export const schedule = [
                 event_title: "Intellectual Property and Innovation Protection",
                 event_type: "Workshop",
                 venue: "Swahilipot: Amphitheatre",
-                partners: [
+                partners:[
                     {
                         id: 1,
                         name: "MMS Advocates"
