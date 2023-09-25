@@ -9,7 +9,7 @@ function TwitterTimeline() {
         screenName="pwaniinnovation"
         options={{
           height: '400px',
-          width: '50%',
+          width: 400,
           theme: 'light',
         }}
       />
