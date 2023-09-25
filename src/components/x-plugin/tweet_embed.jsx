@@ -24,11 +24,6 @@ const styles = {
       alignItems: 'center',
       padding: 50,
     },
-
-    '@media (max-width: 480px)': {
-        container: {
-        },
-    }
 };
 
 export default TwitterTimeline;
