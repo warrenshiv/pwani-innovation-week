@@ -2,18 +2,14 @@ import React from 'react';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 function TwitterTimeline() {
-  {/*useEffect(() => {
-    // You can customize the widget options here
-  }, []);*/}
-
   return (
     <div style={styles.container}>
       <TwitterTimelineEmbed
         sourceType="profile"
         screenName="pwaniinnovation"
         options={{
-          height: 400,
-          width: 500,
+          height: '400px',
+          width: '50%',
           theme: 'light',
         }}
       />
@@ -26,7 +22,13 @@ const styles = {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
+      padding: 50,
     },
+
+    '@media (max-width: 480px)': {
+        container: {
+        },
+    }
 };
 
 export default TwitterTimeline;

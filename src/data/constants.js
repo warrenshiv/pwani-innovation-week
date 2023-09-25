@@ -22,7 +22,7 @@ export const schedule = [
                 time: "10.30 AM - 12:30 PM",
                 event_title: "Intellectual Property and Innovation Protection",
                 event_type: "Workshop",
-                venue: "Swahilipot: Amphitheatre",
+                venue: "Amphitheatre",
                 partners: [
                     {
                         id: 1,
@@ -35,20 +35,16 @@ export const schedule = [
                 time: "10.30 AM - 12:30 PM",
                 event_title: "Data Science",
                 event_type: "Workshop",
-                venue: "Swahilipot: SPH Hall",
+                venue: "Mekatilili Hall",
                 partners: [
                     {
                         id: 1,
-                        name: "DataKind"
+                        name: "Konza Technopolis"
                     },
                     {
                         id: 2,
                         name: "IOME"
                     },
-                    {
-                        id: 3,
-                        name: "Konza City"
-                    }
                 ]
             },
             {
@@ -79,11 +75,11 @@ export const schedule = [
                     },
                     {
                         id: 4,
-                        name: "JP Okwiri - CEO, Konza Technopolis City"
+                        name: "John Paul Okwiri - CEO, Konza Technopolis City"
                     },
                     {
                         id: 5,
-                        name: "Alice Gugelev - CEO, GDI Africa"
+                        name: "Alice Gugelev - CEO, Global Development Incubator (GDI) Africa"
                     }
                 ]
             },
@@ -93,7 +89,7 @@ export const schedule = [
                 event_title: "Breaking Barriers: Gender Equality and Innovation",
                 event_type: "Plenary Session",
                 venue: "Amphitheatre",
-                moderator: "Kevin Muthini",
+                moderator: "Dr. Sarah Kinyanjui - University of Nairobi",
                 partners: [
                     {
                         id: 1,
@@ -105,7 +101,7 @@ export const schedule = [
                     },
                     {
                         id: 3,
-                        name: "Mumbi Ndung'u - Chief of Growth and Operations, PLP Africa"
+                        name: "Mumbi Ndung'u - Chief of Growth and Operations, Power Learn Project Africa"
                     },
                     {
                         id: 4,
@@ -113,11 +109,11 @@ export const schedule = [
                     },
                     {
                         id: 5,
-                        name: "Dr. Sarah Kinyanjui - University of Nairobi"
+                        name: "Farhia Jama - Founder, Holby Training Solutions"
                     },
                     {
                         id: 6,
-                        name: "Ann Rose Maua- Uzalendo Afrika Initiative"
+                        name: "Ann Rose Maua - Uzalendo Afrika Initiative"
                     }
                 ]
             },
@@ -150,7 +146,7 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Konza City"
+                        name: "Konza Technopolis"
                     },
                     {
                         id: 2,
@@ -182,7 +178,7 @@ export const schedule = [
                 event_title: "Opening Ceremony",
                 event_type: "Workshop",
                 venue: "Amphitheatre",
-                moderator: "Michael Onyango",
+                moderator: "Michael Onyango - Founder 4gotten Bottomillions (4BM)",
                 partners: [
                     {
                         id: 1,
@@ -198,7 +194,7 @@ export const schedule = [
                     },
                     {
                         id: 4,
-                        name: "Huawei"
+                        name: "Adam Lane - Director of Government Relations, Huawei"
                     },
                     {
                         id: 5,
@@ -257,7 +253,7 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Lucas Omolo, Konza City"
+                        name: "Lucas Omolo, Konza Technopolis"
                     },
                     {
                         id: 2,
@@ -300,7 +296,7 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Kenya Redcross Society"
+                        name: "Ahmed Idriss - Secretary General, Kenya Redcross Society"
                     }
                 ]
             },
@@ -310,7 +306,7 @@ export const schedule = [
                 event_title: "Navigating the Future of Work: Embracing Change, Technology, and Well-being",
                 event_type: "Plenary Session",
                 venue: "Amphitheatre",
-                moderator: "Nyambura Kariuki - GDI/GOYN",
+                moderator: "Nyambura Kariuki - Global Development Incubator/Global Opportunity Youth Network",
                 partners: [
                     {
                         id: 1,
@@ -352,7 +348,7 @@ export const schedule = [
                     },
                     {
                         id: 3,
-                        name: "YGAP"
+                        name: "Carol Kimani - Country Director, YGAP"
                     },
                     {
                         id: 4,
@@ -382,7 +378,7 @@ export const schedule = [
                     },
                     {
                         id: 2,
-                        name: "CECM - Taita Taveta"
+                        name: "Mr. Granton Mwandawiro - CECM, Taita Taveta"
                     },
                     {
                         id: 3,
@@ -394,7 +390,7 @@ export const schedule = [
                     },
                     {
                         id: 5,
-                        name: "WWF"
+                        name: "Dr. Asma Awadh - Coastal Kenya Programme Manager, WWF"
                     }
                 ]
             },
@@ -475,7 +471,7 @@ export const schedule = [
                     },
                     {
                         id: 2,
-                        name: "Patrick Abungo"
+                        name: "Academia"
                     },
                     {
                         id: 3,
@@ -504,7 +500,7 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Madiha Tubman"
+                        name: "Madiha Tubman - Life Coach Mentor"
                     }
                 ]
             },
@@ -544,7 +540,7 @@ export const schedule = [
                 time: "1:45 PM - 3:30 PM",
                 event_title: "Pioneering Progress: Women in tech Leading the Digital Revolution",
                 event_type: "Plenary Session",
-                moderator: "Maureen Mwaniki - Huawei",
+                moderator: "Maureen Mwaniki - Director, Public Relations and Delivery and Spokesperson, Huawei Kenya",
                 venue: "Amphitheatre",
                 partners: [
                     {
@@ -619,7 +615,7 @@ export const schedule = [
                 id: 8,
                 time: "6:30PM - 8:30PM",
                 event_title: "4BM Awards and Art Performance",
-                venue: "Amphitheatre",
+                venue: "Ali Mazrui",
                 partners: [
                     {
                         id: 1,
@@ -693,7 +689,7 @@ export const schedule = [
                 event_type: "Plenary Session",
                 event_title: "Plenary Session: Harvesting Green Gold: Advancing Coastal Green Economy",
                 moderator: "Dr. Sylvia Mutua",
-                venue: "Main Arena",
+                venue: "Amphitheatre",
                 partners: [
                     {
                         id: 1,
@@ -717,7 +713,7 @@ export const schedule = [
                     },
                     {
                         id: 6,
-                        name: "Arafat Mukasa - SPH/GOYN"
+                        name: "Arafat Mukasa - Associate, Swahilipot Hub/Global Opportunity Youth Network"
                     }
                 ]
             },
@@ -743,7 +739,7 @@ export const schedule = [
                 time: "10:35AM - 12:00PM",
                 event_type: "Plenary Session",
                 event_title: "Plenary Session: Exploring the vibrant potential of the Orange Economy: Fostering Innovation, Sustainability and Inclusivity",
-                moderator: "Ahmad Salim",
+                moderator: "TBC",
                 venue: "Amphitheatre",
                 partners: [
                     {
@@ -760,15 +756,15 @@ export const schedule = [
                     },
                     {
                         id: 4,
-                        name: "Sarah Hassan"
+                        name: "Babelynn Mukila - Youth Champion"
                     },
                     {
                         id: 5,
-                        name: "Alliance Francaise"
+                        name: "Lucas Malcor - Director, Alliance Francaise"
                     },
                     {
                         id: 6,
-                        name: "Josephine Ndambuki - Konza City"
+                        name: "Josephine Ndambuki - Konza Technopolis"
                     }
                 ]
             },
@@ -777,7 +773,7 @@ export const schedule = [
                 time: "12:00PM - 1:30PM",
                 event_type: "Breakout Session",
                 event_title: "Break out Session: Sustainable Growth and Innovation: Exploring Opportunities in the Coastal Blue Economy",
-                moderator: "Peter Kibe - GOYN/GDI",
+                moderator: "Peter Kibe - Hospitality and Tourism Lead, GOYN/GDI",
                 venue: "Amphitheatre",
                 partners: [
                     {
@@ -786,19 +782,23 @@ export const schedule = [
                     },
                     {
                         id: 2,
-                        name: "CAPYEI"
+                        name: "Yashpal Sihag - Program Manager, Cap Youth Empowerment Center"
                     },
                     {
                         id: 3,
-                        name: "Sote Hub"
+                        name: "Alvin Chole - Head of Programs, Sote Hub"
                     },
                     {
                         id: 4,
-                        name: "BEI Hub"
+                        name: "Dr. Mathew Egesa - Founding Coordinator, BEI Hub"
                     },
                     {
                         id: 5,
                         name: "Ashoka"
+                    },
+                    {
+                        id: 6,
+                        name: "Sinapis"
                     }
                 ]
             },
@@ -808,7 +808,7 @@ export const schedule = [
                 event_type: "Breakout Session",
                 event_title: "Break out Session: Empowering Kenya's Youth for a Prosperous Future",
                 moderator: "TBC",
-                venue: "Mazrui Hall",
+                venue: "Ali Mazrui Hall",
                 partners: [
                     {
                         id: 1,
@@ -816,11 +816,11 @@ export const schedule = [
                     },
                     {
                         id: 2,
-                        name: "KEPSA"
+                        name: "Kenya Private Sector Alliance"
                     },
                     {
                         id: 3,
-                        name: "Konza City"
+                        name: "Konza Technopolis"
                     }
                 ]
             },
@@ -839,7 +839,7 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "YGAP"
+                        name: "Carol Kimani - Country Director, YGAP Kenya"
                     },
                     {
                         id: 2,
@@ -863,14 +863,18 @@ export const schedule = [
                     },
                     {
                         id: 7,
-                        name: "Founders Factory"
+                        name: "Founders Factory Africa"
                     },
+                    {
+                        id: 8,
+                        name: "NCBA Group/Junior Achievers"
+                    }
                 ]
             },
             {
                 id: 8,
                 event_title: "Official Closing Ceremony",
-                time: "4:00PM - 5:00PM",
+                time: "4:00PM - 5:30PM",
                 moderator: "MC",
                 venue: "Amphitheatre",
                 partners: [
@@ -886,7 +890,7 @@ export const schedule = [
             },
             {
                 id: 9,
-                event_title: "Art Performance and Networking Cocktail",
+                event_title: "Runway Performance and Networking Cocktail",
                 time: "5:00PM - 7:00PM"
             }
         ]
@@ -922,7 +926,7 @@ export const schedule = [
                 id: 2,
                 time: "2:00 PM - 4:00 PM",
                 event_title: "Junior Achievers Program Building",
-                venue: "Mazrui Hall",
+                venue: "Mekatilili Hall",
                 event_type: "Plenary Session",
                 moderator: "TBC",
                 partners: [
@@ -1009,7 +1013,7 @@ export const speakers = [
     {
         id: 3,
         name: "Rt. Fathiya Noordean",
-        organization: "Regional Manager, Coast Region,Absa Bank PLC"
+        organization: "Regional Manager, Coast Region, Absa Bank PLC"
     },
     {
         id: 4,
@@ -1124,12 +1128,12 @@ export const speakers = [
     {
         id: 27,
         name: "Madiha Tubman",
-        organization: ""
+        organization: "Life Coach Mentor"
     },
     {
         id: 28,
         name: "Maureen Mwaniki",
-        organization: "Huawei"
+        organization: "Director, Public Relations and Delivery and Spokesperson, Huawei Kenya"
     },
     {
         id: 29,

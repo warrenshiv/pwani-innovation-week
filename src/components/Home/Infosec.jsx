@@ -219,6 +219,8 @@ const Infosec = () => {
           </div>
         </div>
         {/* <!--//container--> */}
+        
+        {/* Twitter Embed Section */}
         <TwitterTimeline/>
       </section>
     </>
