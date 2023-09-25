@@ -39,6 +39,7 @@ const SpeakersSection = () => {
           <div className='section-intro text-center single-col-max mx-auto mb-5'>
             Our Curated list of Speakers for the Pwani Innovation Week 2023
           </div>
+
           <div className='row'>
             {speakers.length > 0 ? (
               speakers.map((speaker) => (
@@ -75,3 +76,4 @@ const SpeakersSection = () => {
 };
 
 export default SpeakersSection;
+
