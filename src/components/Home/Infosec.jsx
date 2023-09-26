@@ -29,6 +29,7 @@ import swahilipot from '../../assets/images/sponsors/swahilipot.png'
 import tactive from '../../assets/images/sponsors/tactive.png'
 // import TUL from  "../../assets/images/sponsors/taifa unga logo.png"
 import taifa from '../../assets/images/sponsors/taifa.png'
+import TwitterTimeline from '../x-plugin/tweet_embed'
 // import "../../assets/scss/theme.scss"
 // import '../../assets/css/theme.css'
 
@@ -218,6 +219,9 @@ const Infosec = () => {
           </div>
         </div>
         {/* <!--//container--> */}
+        
+        {/* Twitter Embed Section */}
+        <TwitterTimeline/>
       </section>
     </>
   )
