@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// import '../../assets/scss/theme.scss';
-// import '../../assets/css/theme.css';
 import { speakers } from "../../data/constants";
 
 const SpeakerItem = ({ name, organization }) => {
@@ -11,13 +9,7 @@ const SpeakerItem = ({ name, organization }) => {
           href="#modal-speaker-1"
           data-bs-toggle="modal"
           data-bs-target="#modal-speaker-1"
-        >
-          {/* <img
-            src='assets/images/speakers/speaker-2.jpg'
-            className='card-img-top rounded-0'
-            alt=''
-          /> */}
-        </a>
+        ></a>
         <div className="card-body">
           <h5 className="card-title mb-2">{name}</h5>
           <div className="card-text mb-3">
@@ -25,7 +17,7 @@ const SpeakerItem = ({ name, organization }) => {
           </div>
         </div>
       </div>
-    </div> // Closing div was missing here
+    </div>
   );
 };
 
@@ -52,14 +44,12 @@ const SpeakersSection = () => {
 
   return (
     <>
-      {/* <!-- Speakers Images --> */}
       <section id="speakers-section" className="speakers-section section">
         <div className="container">
           <h3 className="section-heading text-center mb-3">Speakers</h3>
           <div className="section-intro text-center single-col-max mx-auto mb-5">
             Our Curated list of Speakers for the Pwani Innovation Week 2023
           </div>
-
           <div
             className="speakers-cta text-center py-3 d-flex"
             style={{
@@ -70,20 +60,22 @@ const SpeakersSection = () => {
           >
             <input
               type="text"
-              style={{ width: "300px", height: "50px", padding: "5px" }}
+              style={{
+                width: "300px",
+                height: "50px",
+                padding: "5px",
+              }}
               className="form-control"
               placeholder="Search Speakers"
               value={searchQuery}
-              // onKeyUp={handleKeyUp}
               onChange={handleKeyUp}
-              // onChange={(e) => setSearchQuery(e.target.value)} onKeyUp={handleKeyUp}
             />
 
             <div>
               <button
                 className="btn btn-primary btn-lg"
                 type="button"
-                onClick={() => handleSearch()}
+                onClick={handleSearch}
               >
                 Search
               </button>
@@ -91,29 +83,29 @@ const SpeakersSection = () => {
           </div>
 
           <div className="row">
-            {searchQuery ? (
-              filteredSpeakers.map((speaker) => (
-                <SpeakerItem
-                  key={speaker.id}
-                  name={speaker.name}
-                  organization={speaker.organization}
-                />
-              ))
-            ) : speakers.length > 0 ? (
-              speakers.map((speaker) => (
-                <SpeakerItem
-                  key={speaker.id}
-                  name={speaker.name}
-                  organization={speaker.organization}
-                />
-              ))
-            ) : (
-              <h4 className="text-center py-5 text-muted">
-                Our Speaker List is getting ready; we will update soon!
-              </h4>
-            )}
+            {searchQuery
+              ? filteredSpeakers.map((speaker) => (
+                  <SpeakerItem
+                    key={speaker.id}
+                    name={speaker.name}
+                    organization={speaker.organization}
+                  />
+                ))
+              : speakers.length > 0
+              ? speakers.map((speaker) => (
+                  <SpeakerItem
+                    key={speaker.id}
+                    name={speaker.name}
+                    organization={speaker.organization}
+                  />
+                ))
+              : (
+                  <h4 className="text-center py-5 text-muted">
+                    Our Speaker List is getting ready; we will update soon!
+                  </h4>
+                )}
           </div>
-          {/* <!--//row--> */}
+
           <div className="speakers-cta text-center py-3">
             <a
               className="btn btn-primary btn-lg"
@@ -123,9 +115,7 @@ const SpeakersSection = () => {
             </a>
           </div>
         </div>
-        {/* <!--//container--> */}
       </section>
-      {/* <!--//speakers-section--> */}
       <div className="container">
         <hr />
       </div>
