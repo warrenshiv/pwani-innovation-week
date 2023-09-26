@@ -213,10 +213,10 @@ const Infosec = () => {
               <img src={taifa} height='100' width='100' alt='' />
             </div>
             <div className='logo-item col-6 col-md-4 col-lg-2'>
-              <img src={kcic} height='100' width='100' alt='' />
+              <img src={kcic} alt='' />
             </div>
             <div className='logo-item col-6 col-md-4 col-lg-2'>
-              <img src={techkidz} height='100' width='100' alt='' />
+              <img src={techkidz} alt='' />
             </div>
           </div>
           {/* <!--//row--> */}
