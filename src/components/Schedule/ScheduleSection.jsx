@@ -6,7 +6,7 @@ import {
   faArrowCircleRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-const ScheduleItem = ({ time, title, venue, type, partners }) => {
+const ScheduleItem = ({ time, title, venue, type, partners, moderator }) => {
   return (
     <div className="item item-other">
       <div className="meta">
@@ -16,14 +16,28 @@ const ScheduleItem = ({ time, title, venue, type, partners }) => {
       <div className="content">
         <h3 className="title mb-3">{title}</h3>
         <div className="location mb-3">
-          <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />{" "}
-          {/* Add the map marker icon */}
-          {venue}
+          <div className="location mb-3">
+            {venue && (
+              <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
+            )}
+            {venue}
+          </div>
         </div>
         <div className="desc">
-          {" "}
-          <FontAwesomeIcon icon={faArrowCircleRight} className="me-2" />
+          {type && (
+            <FontAwesomeIcon icon={faArrowCircleRight} className="me-2" />
+          )}
           {type}
+        </div>
+        <div className="moderators">
+          {moderator && (
+            <div>
+              <h3 className="title mb-3">Moderator:</h3>
+              <ul>
+                <li>{moderator}</li>
+              </ul>
+            </div>
+          )}
         </div>
 
         {/* Add partner information */}
@@ -73,15 +87,15 @@ const ScheduleSection = () => {
                 aria-controls={`tab-${day.id}-content`}
                 aria-selected={activeTab === `tab-${day.id}`}
               >
-                {day.day === 'Hackathons' ? (
+                {day.day === "Hackathons" ? (
                   <>
-                    <span className=''>{day.day}</span>
-                    <span className=''>({day.date})</span>
+                    <span className="">{day.day}</span>
+                    <span className="">({day.date})</span>
                   </>
                 ) : (
                   <>
-                    <span className=''>Day {day.day}</span>
-                    <span className=''>({day.date})</span>
+                    <span className="">Day {day.day}</span>
+                    <span className="">({day.date})</span>
                   </>
                 )}
               </a>
@@ -104,7 +118,9 @@ const ScheduleSection = () => {
               <h4 className="text-center py-5 text-muted">
                 {day.program.length === 0
                   ? `Day ${day.day} Schedule Will be Updated Soon`
-                  : day.day === 'Hackathons' ? `${day.day} Schedule` : `Day ${day.day} Schedule`}
+                  : day.day === "Hackathons"
+                  ? `${day.day} Schedule`
+                  : `Day ${day.day} Schedule`}
               </h4>
               {day.program.map((event, index) => (
                 <React.Fragment key={event.id}>
@@ -113,9 +129,10 @@ const ScheduleSection = () => {
                     title={event.event_title}
                     venue={event.venue}
                     type={event.event_type}
+                    moderator={event.moderator}
                     partners={event.partners}
                   />
-                  {/* Add partner content after the first schedule */}
+                  {/* Add partner content after the first schedule
                   {index === 0 &&
                     event.partners &&
                     event.partners.length > 0 && (
@@ -127,7 +144,7 @@ const ScheduleSection = () => {
                           ))}
                         </ul>
                       </div>
-                    )}
+                    )} */}
                 </React.Fragment>
               ))}
             </div>
