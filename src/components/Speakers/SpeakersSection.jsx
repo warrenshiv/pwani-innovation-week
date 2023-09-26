@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 // import '../../assets/scss/theme.scss';
 // import '../../assets/css/theme.css';
 import { speakers } from "../../data/constants";
@@ -45,10 +45,10 @@ const SpeakersSection = () => {
     setSearchQuery(userInput);
 
     const filtered = speakers.filter((speaker) =>
-      speaker.name.toLowerCase().includes(userInput)  
+      speaker.name.toLowerCase().includes(userInput)
     );
-  setFilteredSpeakers(filtered);
-};
+    setFilteredSpeakers(filtered);
+  };
 
   return (
     <>
@@ -60,9 +60,17 @@ const SpeakersSection = () => {
             Our Curated list of Speakers for the Pwani Innovation Week 2023
           </div>
 
-          <div className="speakers-cta text-center py-3 d-flex" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <div
+            className="speakers-cta text-center py-3 d-flex"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             <input
-              type="text" style={{ width: '300px', height: '50px', padding: '5px' }}
+              type="text"
+              style={{ width: "300px", height: "50px", padding: "5px" }}
               className="form-control"
               placeholder="Search Speakers"
               value={searchQuery}
@@ -72,7 +80,11 @@ const SpeakersSection = () => {
             />
 
             <div>
-              <button className="btn btn-primary btn-lg" type="button" onClick={() =>handleSearch()}>
+              <button
+                className="btn btn-primary btn-lg"
+                type="button"
+                onClick={() => handleSearch()}
+              >
                 Search
               </button>
             </div>
