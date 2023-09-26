@@ -72,11 +72,6 @@ function Navbar() {
               className="navbar-collapse collapse justify-content-lg-end me-lg-3"
             >
               <ul className="nav navbar-nav">
-                {/* <li className='nav-item'>
-                  <Link to='/about' className='nav-link scrollto'>
-                    About
-                  </Link>
-                </li> */}
                 <li className="nav-item">
                   <Link to="/speakers" className="nav-link scrollto">
                     Speakers

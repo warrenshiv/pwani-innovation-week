@@ -1,29 +1,29 @@
-import React from 'react';
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import React from 'react'
+import { TwitterTimelineEmbed } from 'react-twitter-embed'
 
 function TwitterTimeline() {
   return (
     <div style={styles.container}>
       <TwitterTimelineEmbed
-        sourceType="profile"
-        screenName="pwaniinnovation"
+        sourceType='profile'
+        screenName='swahilipothub'
         options={{
-          height: '400px',
-          width: 400,
-          theme: 'light',
+          height: '600px',
+          width: 1000,
+          theme: 'dark',
         }}
       />
     </div>
-  );
+  )
 }
 
 const styles = {
-    container: {
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      padding: 50,
-    },
-};
+  container: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 50,
+  },
+}
 
-export default TwitterTimeline;
+export default TwitterTimeline
