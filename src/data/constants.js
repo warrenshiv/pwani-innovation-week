@@ -1477,5 +1477,7 @@ export const sponsors = [
     { id: 17, imageURL: "../../assets/images/sponsors/Ministry of ict kenya.png", sponsor_name: "Ministry of ict kenya" },
     { id: 18, imageURL: "../../assets/images/sponsors/Mombasa county logo.png", sponsor_name: "Mombasa county logo" },
     { id: 19, imageURL: "../../assets/images/sponsors/Pure pearl.png", sponsor_name: "Pure pearl" },
+    { id: 20, imageURL: "../../assets/images/sponsors/KCIC_Logo.png", sponsor_name: "Kenya Climate Innovation Center"},
+    { id: 21, imageURL: "../../assets/images/sponsors/TechKidzAfrica_Logo.png", sponsor_name: "Tech Kidz Africa"},
 ];
 

@@ -29,6 +29,8 @@ import swahilipot from '../../assets/images/sponsors/swahilipot.png'
 import tactive from '../../assets/images/sponsors/tactive.png'
 // import TUL from  "../../assets/images/sponsors/taifa unga logo.png"
 import taifa from '../../assets/images/sponsors/taifa.png'
+import kcic from "../../assets/images/sponsors/KCIC_Logo.png"
+import techkidz from "../../assets/images/sponsors/TechKidzAfrica_Logo.png"
 import TwitterTimeline from '../x-plugin/tweet_embed'
 // import "../../assets/scss/theme.scss"
 // import '../../assets/css/theme.css'
@@ -209,6 +211,12 @@ const Infosec = () => {
             </div>
             <div className='logo-item col-6 col-md-4 col-lg-2'>
               <img src={taifa} height='100' width='100' alt='' />
+            </div>
+            <div className='logo-item col-6 col-md-4 col-lg-2'>
+              <img src={kcic} alt='' />
+            </div>
+            <div className='logo-item col-6 col-md-4 col-lg-2'>
+              <img src={techkidz} alt='' />
             </div>
           </div>
           {/* <!--//row--> */}
