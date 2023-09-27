@@ -71,7 +71,7 @@ export const schedule = [
                     },
                     {
                         id: 3,
-                        name: "Nadia Ahmed Abdalla - Former CAS ICT, Innovation and Youth Affairs, Founder of Africa Ni Mimi"
+                        name: "Lisa Kimondo - Founders Factory Africa"
                     },
                     {
                         id: 4,
@@ -93,7 +93,7 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Sharnayel Karani - Infi-Tech Community"
+                        name: "Shamayel Karani - Infi-Tech Community"
                     },
                     {
                         id: 2,
@@ -105,7 +105,7 @@ export const schedule = [
                     },
                     {
                         id: 4,
-                        name: "Lisa Kamondo - Founders Factory Africa"
+                        name: "Founders Factory Africa"
                     },
                     {
                         id: 5,
@@ -113,7 +113,7 @@ export const schedule = [
                     },
                     {
                         id: 6,
-                        name: "Ann Rose Maua - Uzalendo Afrika Initiative"
+                        name: "Ann Rose Maua - Executive Director, Uzalendo Afrika Initiative"
                     }
                 ]
             },
@@ -126,14 +126,14 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Tactive Consulting"
+                        name: "Kaye Matereke - Tactive Consulting"
                     }
                 ]
             },
             {
                 id: 8,
                 time: "5:00 PM - 6:00 PM",
-                event_title: "Band, Sanaa Mashinani",
+                event_title: "Band",
                 event_type: "Entertainment",
                 venue: "Amphitheatre",
             },
@@ -175,22 +175,22 @@ export const schedule = [
             {
                 id: 2,
                 time: "9.00 AM - 11:00 AM",
-                event_title: "Opening Ceremony",
+                event_title: "Opening Ceremony and Keynote Address",
                 event_type: "Workshop",
                 venue: "Amphitheatre",
-                moderator: "Michael Onyango - Founder 4gotten Bottomillions (4BM)",
+                moderator: "Michael Onyango - Founder, 4BM",
                 partners: [
                     {
                         id: 1,
-                        name: "Mahmoud Noor - Chief Mentor, Swahilipot Hub"
+                        name: "Mahmoud Noor - Chief Mentor, Swahilipot Hub Foundation"
                     },
                     {
                         id: 2,
-                        name: "Osman Varwan - Chairperson, Pwani Innovation Week: 2023"
+                        name: "Dr. Safia Lul - Board Chairlady, Swahilipot Hub Foundation"
                     },
                     {
                         id: 3,
-                        name: "H.E Peter Maddens - Belgian Ambassador to Kenya"
+                        name: "H.E. Peter Maddens - Belgian Ambassador to Kenya"
                     },
                     {
                         id: 4,
@@ -210,31 +210,35 @@ export const schedule = [
                     },
                     {
                         id: 8,
-                        name: "Charlene Ruto"
+                        name: "Charlene Ruto - Youth Champion"
                     },
                     {
                         id: 9,
-                        name: "Ken-Invest Authority"
+                        name: "H.E. Amb Arnaud Suquet - French Ambassador to Kenya: Harnessing culture and heritage to promote socio-economic value"
                     },
                     {
                         id: 10,
-                        name: "H.E Amb Arnaud Suquet - French Ambassador to Kenya"
+                        name: "Mr. Eliud Owalo - Cabinet Secretary, Ministry of ICT and Digital Economy"
                     },
                     {
                         id: 11,
-                        name: "Mr. Eliud Owalo, Cabinet Secretary, Ministry of ICT and Digital Economy"
+                        name: "Paul Akwabi - Techkidz, Youth Innovator"
                     },
                     {
                         id: 12,
-                        name: "Paul Akwabi - Youth Innovator"
+                        name: "H.E. Abdulswamad Sherrif Nassir - Governor, Mombasa County Government - Chief Guest"
                     },
                     {
                         id: 13,
-                        name: "H.E. Abdulswamad Sherrif Nassir, Governor, Mombasa County Government - Chief Guest"
+                        name: "Dr. Ehud Gachugu - Ph.D, HSC, Project Director, Ajira Digital Program, KEPSA"
                     },
                     {
                         id: 14,
-                        name: "Dr. Safia Lui, Board Chairlady, Swahilipot Hub"
+                        name: "Technical University of Mombasa"
+                    },
+                    {
+                        id: 15,
+                        name: "P.S. Abubakar Hassan Abubakar - Principal Secretary - State Department for Investment Promotion, Ministry of Investment, Trade and Industry"
                     }
                 ]
             },
@@ -249,7 +253,7 @@ export const schedule = [
                 event_title: "A Digitally Transformed Region for Prosperity and Inclusivity: Transforming the coastal region to a globally competitive digital economy",
                 event_type: "Plenary Session",
                 venue: "Amphitheatre",
-                moderator: "Harry Hare - Chairman CIO Africa",
+                moderator: "Harry Hare - Chairman, CIO Africa",
                 partners: [
                     {
                         id: 1,
@@ -257,11 +261,11 @@ export const schedule = [
                     },
                     {
                         id: 2,
-                        name: "Dr. Vincent Ngundi, Ph.D Ag. Director, Cyber Security & Head of National CyberSecurity Centre at Communications Authority of Kenya"
+                        name: "Dr. Vincent Ngundi - Ph.D Ag. Director, Cyber Security & Head of National CyberSecurity Centre at Communications Authority of Kenya"
                     },
                     {
                         id: 3,
-                        name: "Dr. Mbwarali Kame Mboramad- CECM, Department of Education & Digital Transformation, Mombasa County"
+                        name: "Dr. Mbwarali Kame Mboramad - CECM, Department of Education & Digital Transformation, Mombasa County"
                     },
                     {
                         id: 4,
@@ -269,11 +273,11 @@ export const schedule = [
                     },
                     {
                         id: 5,
-                        name: "Dr. Emmanuel Nzai- JKP"
+                        name: "Dr. Emmanuel Nzai - JKP"
                     },
                     {
                         id: 6,
-                        name: "Dr. Tonny Omwansa, CEO Kenya National Innovation Agency (KeNIA)"
+                        name: "Dr. Tonny Omwansa - CEO Kenya National Innovation Agency (KeNIA)"
                     },
                     {
                         id: 7,
@@ -296,13 +300,13 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Ahmed Idriss - Secretary General, Kenya Redcross Society"
+                        name: "Ahmed Idriss - Secretary General, Kenya Red Cross Society"
                     }
                 ]
             },
             {
                 id: 7,
-                time: "1:45 PM - 3:00PM",
+                time: "1:45 PM - 3:00 PM",
                 event_title: "Navigating the Future of Work: Embracing Change, Technology, and Well-being",
                 event_type: "Plenary Session",
                 venue: "Amphitheatre",
@@ -310,22 +314,26 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Brian Keya - Yunitok Manager, UNICEF"
+                        name: "Eng. John Tanui, MBS"
                     },
                     {
                         id: 2,
-                        name: "Phillippa Mary - GDI, GOYN"
+                        name: "Brian Keya - Yunitok Manager, UNICEF"
                     },
                     {
                         id: 3,
-                        name: "Sven De Cauter - Majorel Kenya"
+                        name: "Phillippa Mary - GDI, GOYN"
                     },
                     {
                         id: 4,
-                        name: "Ville Wacklin - Head of Partnerships/Chief of Staff, Fuzu"
+                        name: "Sven De Cauter - Majorel Kenya"
                     },
                     {
                         id: 5,
+                        name: "Ville Wacklin - Head of Partnerships/Chief of Staff, Fuzu"
+                    },
+                    {
+                        id: 6,
                         name: "Alice Kimani - Kenya Private Sector Alliance"
                     }
                 ]
@@ -340,19 +348,19 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Close the Gap"
+                        name: "Ngosa Mupela - CFO, Close the Gap"
                     },
                     {
                         id: 2,
-                        name: "Kenya National Innovation Agency"
+                        name: "Founders Factory Africa"
                     },
                     {
                         id: 3,
-                        name: "Carol Kimani - Country Director, YGAP"
+                        name: "Carol Kimani - Country Director, YGAP Kenya"
                     },
                     {
                         id: 4,
-                        name: "Amani Katana, Executive Director, Youth Empowerment Program Initiative"
+                        name: "Amani Katana - Executive Director, Youth Empowerment Program Initiative"
                     },
                     {
                         id: 5,
@@ -360,7 +368,7 @@ export const schedule = [
                     },
                     {
                         id: 6,
-                        name: "Moses Okundi - Absa Bank"
+                        name: "Moses Okundi - Chief Information Officer, Absa Bank PLC"
                     }
                 ]
             },
@@ -369,8 +377,8 @@ export const schedule = [
                 time: "3:00 PM - 4:30 PM",
                 event_title: "Break Out Session: Coastal Resilience: Strategies for Climate Action in Coastal Strip",
                 event_type: "Break Out Session",
-                venue: "Mazrui Hall",
-                moderator: "Samuel Mue - Kenya ni Mimi ED",
+                venue: "Ali Mazrui Hall",
+                moderator: "Samuel Mue - Kenya Ni Mimi ED",
                 partners: [
                     {
                         id: 1,
@@ -378,28 +386,42 @@ export const schedule = [
                     },
                     {
                         id: 2,
-                        name: "Mr. Granton Mwandawiro - CECM, Taita Taveta"
+                        name: "Mr. Granton Mwandawiro - CECM: Water, Climate Change and Natural Resources, Taita Taveta"
                     },
                     {
                         id: 3,
-                        name: "Dr. Ruth Masha Dama - CECM, Youth, Gender"
+                        name: "Dr. Ruth Masha Dama - CECM: Youth, Gender"
                     },
                     {
                         id: 4,
-                        name: "National Environment Management Authority"
+                        name: "Jackson Kiplagat - Marine Officer, National Environment Management Authority"
                     },
                     {
                         id: 5,
                         name: "Dr. Asma Awadh - Coastal Kenya Programme Manager, WWF"
+                    },
+                    {
+                        id: 6,
+                        name: "Priyanka Patel - Innovation Manager, Kenya Red Cross Society"
                     }
                 ]
             },
             {
                 id: 10,
                 time: "6:00 PM - 9:00 PM",
-                event_title: "Gala Dinner",
+                event_title: "Gala Dinner and Keynote Address",
                 event_type: "Art Performance - Band",
                 venue: "Swahilipot Hub",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Absa Bank PLC"
+                    },
+                    {
+                        id: 2,
+                        name: "Kenya National Chamber of Commerce"
+                    }
+                ]
             },
         ]
     },
@@ -433,11 +455,11 @@ export const schedule = [
                     },
                     {
                         id: 3,
-                        name: "Mr. Mohamed Osman- CECM Department of Tourism Culture and Trade"
+                        name: "Mr. Mohamed Osman - CECM Department of Tourism, Culture and Trade"
                     },
                     {
                         id: 4,
-                        name: "Dr. Bitange Ndemo- Ambassador of Kenya, Belgium (Virtual)"
+                        name: "Dr. Bitange Ndemo - Ambassador of Kenya, Belgium (Virtual)"
                     },
                     {
                         id: 5,
@@ -445,14 +467,10 @@ export const schedule = [
                     },
                     {
                         id: 6,
-                        name: "Konza City"
-                    },
-                    {
-                        id: 7,
                         name: "Mr. Andrew Lewela Mwanyota - CEO, Kenya Network Information Centre (KENIC)"
                     },
                     {
-                        id: 8,
+                        id: 7,
                         name: "Albert Mwamburi - Historian and Cultural Documentor (Youth)"
                     }
                 ]
@@ -471,22 +489,18 @@ export const schedule = [
                     },
                     {
                         id: 2,
-                        name: "Academia"
-                    },
-                    {
-                        id: 3,
                         name: "Lulu Khalef - The Pwani Club"
                     },
                     {
-                        id: 4,
+                        id: 3,
                         name: "Nyanjala Maingu - Program Manager, Tanga Urithi Museum"
                     },
                     {
-                        id: 5,
+                        id: 4,
                         name: "Wairimu Nduba - Africa Digital Heritage (Virtual)"
                     },
                     {
-                        id: 6,
+                        id: 5,
                         name: "Espera Donouvussi - Programme Manager, Youth Heritage Africa ICCROM (Virtual)"
                     }
                 ]
@@ -510,7 +524,7 @@ export const schedule = [
                 event_title: "Navigating Coastal Opportunities: Career Pathways in the Coastal Strips - Students Center",
                 event_type: "The Coastal Jobs Fair",
                 moderator: "TBC",
-                venue: "Mwanakupona Hall",
+                venue: "Ali Mazrui Hall",
                 partners: [
                     {
                         id: 1,
@@ -545,27 +559,27 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Julia Makena - Drone, Projects and Training Lead"
+                        name: "Julie Makena - Drone, Projects and Training Lead"
                     },
                     {
                         id: 2,
-                        name: "Yvonne Maua - Konza Technopolis City"
+                        name: "Yvonne Maua - Konza Technopolis"
                     },
                     {
                         id: 3,
-                        name: "Ruth Kaveke - Pwani Teknowgalz"
+                        name: "Ruth Kaveke - Founder, Pwani Teknowgalz"
                     },
                     {
                         id: 4,
-                        name: "Communication Authority - Jane"
+                        name: "Jane Kinyanjui - Communication Authority"
                     },
                     {
                         id: 5,
-                        name: "Ajra Mohammed - Lead, Partnerships and Government Relations (Nauve Collective)"
+                        name: "Ajra Mohammed - Lead, Partnerships and Government Relations (Nguvu Collectives)"
                     },
                     {
                         id: 6,
-                        name: "Husnia Muhammed - AI and Digital Transformation expert, African Union"
+                        name: "Husnia Muhammad - AI and Digital Transformation, African Union"
                     },
                     {
                         id: 7,
@@ -587,15 +601,15 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Jacqueline Kiplagat - Project Associate, Swahilipot Hub Foundation"
+                        name: "Jacqueline Jepkoech Kiplagat - Project Associate, SPH/GOYN (Panelist)"
                     },
                     {
                         id: 2,
-                        name: "Kaye Matereke - Senior Partner, Tactive Consulting"
+                        name: "Kaye Matereke - Senior Partner, Tactive Consulting (Panelist)"
                     },
                     {
                         id: 3,
-                        name: "Alfred Sigo - CEO Pwani Youth Network"
+                        name: "Alfred Sigo - CEO, Pwani Youth Network - GOYN/YHN (Panelist)"
                     },
                     {
                         id: 4, 
@@ -603,11 +617,11 @@ export const schedule = [
                     },
                     {
                         id: 5,
-                        name: "Mr Kenneth Ambani - CECM Department of Public Service Administration"
+                        name: "Mr Kenneth Ambani - CECM Department of Public Service Administration, Youth, Gender, Social Services and Sports (Panelist)"
                     },
                     {
                         id: 6,
-                        name: "Mercy Wanjau, MBS - Secretary to the Cabinet, Republic of Kenya"
+                        name: "Mercy Wanjau, MBS - Secretary to the Cabinet, Republic of Kenya (Panelist)"
                     }
                 ]
             },
@@ -615,7 +629,7 @@ export const schedule = [
                 id: 8,
                 time: "6:30PM - 8:30PM",
                 event_title: "4BM Awards and Art Performance",
-                venue: "Ali Mazrui",
+                venue: "Ali Mazrui Hall",
                 partners: [
                     {
                         id: 1,
@@ -658,26 +672,22 @@ export const schedule = [
                     },
                     {
                         id: 3,
-                        name: "Lisa Kimondo - Founders Factory Africa"
+                        name: "Mr. Ismail Maalim Madey - P.S. Youth Affairs, Arts"
                     },
                     {
                         id: 4,
-                        name: "Mr. Ismail Maalim Madey - PS. Youth Affairs, Arts"
+                        name: "Mr. Mohammed Daghar - P.S. State Department for Transport"
                     },
                     {
                         id: 5,
-                        name: "Mr. Mohammed Daghar - PS. State Department for Transport"
+                        name: "H.E. Issa Timamy - Governor, Lamu County"
                     },
                     {
                         id: 6,
-                        name: "HE. Issa Timamy - Governor, Lamu County"
-                    },
-                    {
-                        id: 7,
                         name: "June Chepkemei - Managing Director, KENINVEST"
                     },
                     {
-                        id: 8,
+                        id: 7,
                         name: "Olivier Vanden Eynde - Close the Gap"
                     }
                 ]
@@ -693,15 +703,15 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Baus Taka"
+                        name: "Dr. Tayba Hatimy - Co-founder and CEO, Baus Taka"
                     },
                     {
                         id: 2,
-                        name: "Takataka ni Mali"
+                        name: "Evance Abok - Project Manager, Takataka ni Mali"
                     },
                     {
                         id: 3,
-                        name: "Challenge Works"
+                        name: "Jonty Slater - Director of International Development, Challenge Works (Virtual)"
                     },
                     {
                         id: 4,
@@ -726,11 +736,7 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Tactive Consulting"
-                    },
-                    {
-                        id: 2,
-                        name: "Takataka ni Mali"
+                        name: "Joshua Samson - Takataka ni Mali"
                     }
                 ]
             },
@@ -744,19 +750,19 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Daisy Chesang - Swahilipot Hub Foundation"
+                        name: "Daisy Chesang - Creative Pathway Lead, SPH/GOYN"
                     },
                     {
                         id: 2,
-                        name: "Africa Digital Media Institute"
+                        name: "Felicia"
                     },
                     {
                         id: 3,
-                        name: "Leonitius Leonidas - Tanzania House of Talent"
+                        name: "Leonitius Leonidas - Project Coordinator, Tanzania House of Talent"
                     },
                     {
                         id: 4,
-                        name: "Babelynn Mukila - Youth Champion"
+                        name: "Babelynn Mukila - Champion Diversity, Extravaganza Initiative"
                     },
                     {
                         id: 5,
@@ -790,7 +796,7 @@ export const schedule = [
                     },
                     {
                         id: 4,
-                        name: "Dr. Mathew Egesa - Founding Coordinator, BEI Hub"
+                        name: "Dr. Mathew Egessa - Founding Coordinator, BEI Hub"
                     },
                     {
                         id: 5,
@@ -806,21 +812,45 @@ export const schedule = [
                 id: 5,
                 time: "12:00PM - 1:30PM",
                 event_type: "Breakout Session",
-                event_title: "Break out Session: Empowering Kenya's Youth for a Prosperous Future",
-                moderator: "TBC",
+                event_title: "Break out Session: Vijana2invest Business Clinic",
+                moderator: "Maina Chege - Trading Bell Show Host, KTN News",
                 venue: "Ali Mazrui Hall",
                 partners: [
                     {
                         id: 1,
-                        name: "KENINVEST"
+                        name: "Ms. June Chepkemei - CEO, KENINVEST (Opening Remarks)"
                     },
                     {
                         id: 2,
-                        name: "Kenya Private Sector Alliance"
+                        name: "Ms. Sally Mahihu - Chairperson, KENINVEST (Opening Remarks)"
                     },
                     {
                         id: 3,
-                        name: "Konza Technopolis"
+                        name: "Mr. Abubakar Hassan Abubakar - Principal Secretary, State Department of Investment Promotion (Opening Remarks)"
+                    },
+                    {
+                        id: 4,
+                        name: "Ms. Susan Mang'eni - Principal Secretary, State Department for MSMEs"
+                    },
+                    {
+                        id: 5,
+                        name: "Mr. Olivier Vanden Eynde - CEO, Close the Gap Hub"
+                    },
+                    {
+                        id: 6,
+                        name: "Mr. Geoffrey Odundo - CEO, Nairobi Securities Exchange"
+                    },
+                    {
+                        id: 7,
+                        name: "Ms. Catherine Maina - Senior Manager, Huawei Technology"
+                    },
+                    {
+                        id: 8,
+                        name: "Mr. Geoffrey Kilonzo - MD, Institute of Certified SIYB Trainers, ILO"
+                    },
+                    {
+                        id: 9,
+                        name: "Mr. Paul Akwabi - Swahilipot Hub Foundation"
                     }
                 ]
             },
@@ -843,7 +873,7 @@ export const schedule = [
                     },
                     {
                         id: 2,
-                        name: "Close the Gap"
+                        name: "Laurent Kuligha Ambrose - Investment Associate, Close the Gap Hub"
                     },
                     {
                         id: 3,
@@ -851,7 +881,7 @@ export const schedule = [
                     },
                     {
                         id: 4,
-                        name: "WEEE Center"
+                        name: "Grace Kola - Chief Operations Officer, WEEE Center"
                     },
                     {
                         id: 5,
@@ -880,11 +910,11 @@ export const schedule = [
                 partners: [
                     {
                         id: 1,
-                        name: "Mahmood Noor - Chief Mentor, Swahilipot Hub Foundation"
+                        name: "Mahmood Noor - Chief Mentor, Swahilipot Hub Foundation (Closing Remarks)"
                     },
                     {
                         id: 2,
-                        name: "Mr. Francis Foleni Thoya - Deputy Governor, Mombasa County Government"
+                        name: "Mr. Francis Foleni Thoya - Deputy Governor, Mombasa County Government (Closing Remarks)"
                     }
                 ]
             },
@@ -924,15 +954,29 @@ export const schedule = [
             },
             {
                 id: 2,
-                time: "2:00 PM - 4:00 PM",
-                event_title: "Junior Achievers Program Building",
+                time: "9:00 AM - 1:00 PM",
+                event_title: "Junior Achievement Mentorship",
                 venue: "Mekatilili Hall",
                 event_type: "Plenary Session",
-                moderator: "TBC",
+                moderator: "Benjamin Otwal",
                 partners: [
                     {
                         id: 1, 
-                        name: "Junior Achievers Kenya"
+                        name: "Amina Khalid"
+                    }
+                ]
+            },
+            {
+                id: 2,
+                time: "2:00 PM - 4:00 PM",
+                event_title: "Junior Achievers Program Pitching",
+                venue: "Mekatilili Hall",
+                event_type: "Plenary Session",
+                moderator: "Benjamin Otwal",
+                partners: [
+                    {
+                        id: 1, 
+                        name: "Junior Achievement Kenya"
                     }
                 ]
             },
@@ -940,7 +984,17 @@ export const schedule = [
                 id: 3,
                 time: "5:00PM - Till late",
                 event_title: "Art Performances - Pwani Gat Talent",
-                venue: "Amphitheatre"
+                venue: "Amphitheatre",
+                partners: [
+                    {
+                        id: 1,
+                        name: "Khaligraph Jones"
+                    },
+                    {
+                        id: 2,
+                        name: "Jovial"
+                    }
+                ]
             }
         ]
     },
@@ -1026,11 +1080,6 @@ export const speakers = [
         organization: "Chief of Growth and Operations, Power Learn Project Africa"
     },
     {
-        id: 6,
-        name: "Ajra Abdullatif",
-        organization: "Nguvu Collectives"
-    },
-    {
         id: 7,
         name: "Ann Rose Maua",
         organization: "Executive Director, Uzalendo Afrika Initiative"
@@ -1063,7 +1112,7 @@ export const speakers = [
     {
         id: 13,
         name: "Charlene Ruto",
-        organization: ""
+        organization: "Youth Champion"
     },
     {
         id: 15,
@@ -1072,7 +1121,7 @@ export const speakers = [
     },
     {
         id: 16,
-        name: "PS. Abubakar Hassan Abubakar",
+        name: "P.S. Abubakar Hassan Abubakar",
         organization: "Principal Secretary - State Department for Investment Promotion, Ministry of Investment, Trade and Industry"
     },
     {
@@ -1108,7 +1157,7 @@ export const speakers = [
     {
         id: 23,
         name: "Moses Okundi",
-        organization: "Absa Bank PLC"
+        organization: "CFO, Absa Bank PLC"
     },
     {
         id: 24,
@@ -1142,7 +1191,7 @@ export const speakers = [
     },
     {
         id: 30,
-        name: "Jacqueline Kiplagat",
+        name: "Jacqueline Jepkoech Kiplagat",
         organization: "Project Associate, Swahilipot Hub/Global Opportunity Youth Network"
     },
     {
@@ -1153,7 +1202,7 @@ export const speakers = [
     {
         id: 32,
         name: "Kaye Matereke",
-        organization: "Senior Patner, Tactive Consulting"
+        organization: "Senior Partner, Tactive Consulting"
     },
     {
         id: 33,
@@ -1232,7 +1281,7 @@ export const speakers = [
     },
     {
         id: 48,
-        name: "Mr. JP Okwiri",
+        name: "John Paul Okwiri",
         organization: "CEO, Konza Technopolis City"
     },
     {
@@ -1257,7 +1306,7 @@ export const speakers = [
     },
     {
         id: 53,
-        name: "Jane",
+        name: "Jane Kinyanjui",
         organization: "Communication Authority"
     },
     {
@@ -1269,11 +1318,6 @@ export const speakers = [
         id: 56,
         name: "H.E. Amb Arnaud Suquet",
         organization: "French Ambassador to Kenya"
-    },
-    {
-        id: 57,
-        name: "P.S. Abubakar Hassan Abubakar",
-        organization: "Principal Secretary, state Department for Investment promotion, Ministry of Investment, Trade and Industry"
     },
     {
         id: 58,
@@ -1288,7 +1332,7 @@ export const speakers = [
     {
         id: 60,
         name: "Lucas Omolo",
-        organization: "Konza City"
+        organization: "Konza Technopolis"
     },
     {
         id: 61,
@@ -1327,13 +1371,13 @@ export const speakers = [
     },
     {
         id: 68,
-        name: "Ruth Maisha Dama",
+        name: "Dr. Ruth Masha Dama",
         organization: "County Executive Committee Member, Youth, Gender"
     },
     {
         id: 71,
         name: "Albert Mwamburi",
-        organization: "Historian and Cultural Documentor(Youth)"
+        organization: "Historian and Cultural Documentor (Youth)"
     },
     {
         id: 73,
@@ -1383,7 +1427,7 @@ export const speakers = [
     {
         id: 83,
         name: "Ruth Kaveke",
-        organization: "Pwani Teknowgalz"
+        organization: "Founder, Pwani Teknowgalz"
     },
     {
         id: 84,
@@ -1392,12 +1436,12 @@ export const speakers = [
     },
     {
         id: 85,
-        name: "Ajra Mohammad",
-        organization: "Lead Patnerships and Government Relations (Nguve Collections)"
+        name: "Ajra Mohamed",
+        organization: "Lead Partnerships and Government Relations (Nguvu Collective)"
     },
     {
         id: 86,
-        name: "Husnia Muhammed",
+        name: "Husnia Muhammad",
         organization: "AI and Digital Transformation expert, African Union"
     },
     {
@@ -1438,7 +1482,7 @@ export const speakers = [
     {
         id: 94,
         name: "Josephine Ndambuki",
-        organization: "Konza City"
+        organization: "Konza Technopolis"
     },
     {
         id: 95,
@@ -1447,12 +1491,207 @@ export const speakers = [
     },
     {
         id: 96,
-        name: "Dr. Safia Lui",
+        name: "Dr. Safia Lul",
         organization: "Board Chairlady, Swahilipot Hub Foundation"
     },
     {
         id: 97,
         name: "Eng. John Tanui, MBS",
+        organization: ""
+    },
+    {
+        id: 98,
+        name: "Farhia Jama",
+        organization: "Founder, Holby Training Solutions"
+    },
+    {
+        id: 99,
+        name: "Michael Onyango",
+        organization: "Founder, 4BM"
+    },
+    {
+        id: 100,
+        name: "Mr. Osman Varwani",
+        organization: "Chairperson, Pwani Innovation Week 2023"
+    },
+    {
+        id: 101,
+        name: "Adam Lane",
+        organization: "Director of Government Relations, Huawei"
+    },
+    {
+        id: 102,
+        name: "Ahmed Idriss",
+        organization: "Secretary General, Kenya Red Cross Society"
+    },
+    {
+        id: 103,
+        name: "Nyambura Kariuki",
+        organization: "Global Development Incubator/Global Opportunity Youth Network"
+    },
+    {
+        id: 104,
+        name: "Ngosa Mupela",
+        organization: "CFO, Close the Gap"
+    },
+    {
+        id: 105,
+        name: "Carol Kimani",
+        organization: "Country Director, YGAP Kenya"
+    },
+    {
+        id: 106,
+        name: "Samuel Mue",
+        organization: "Kenya Ni Mimi ED"
+    },
+    {
+        id: 107,
+        name: "Priyanka Patel",
+        organization: "Innovation Manager, Kenya Red Cross Society"
+    },
+    {
+        id: 108,
+        name: "Mr. Granton Mwandawiro",
+        organization: "CECM Water, Climate Change and Natural Resources - Taita Taveta County"
+    },
+    {
+        id: 109,
+        name: "Jackson Kiplagat",
+        organization: "Marine Officer, National Environment Management Authority"
+    },
+    {
+        id: 110,
+        name: "Dr. Asma Awadh",
+        organization: "Coastal Kenya Program Manager, WWF"
+    },
+    {
+        id: 111,
+        name: "Rukiya Jaanwala",
+        organization: ""
+    },
+    {
+        id: 112,
+        name: "Elizabeth Cheung",
+        organization: "Senior Program Officer, Opportunity Youth, Conrad N. Hilton Foundation"
+    },
+    {
+        id: 113,
+        name: "Olivier Vanden Eynde",
+        organization: "Close the Gap"
+    },
+    {
+        id: 114,
+        name: "Dr. Sylvia Mutua",
+        organization: ""
+    },
+    {
+        id: 115,
+        name: "Dr. Tayba Hatimy",
+        organization: "Co-founder & CEO, Baus Taka"
+    },
+    {
+        id: 116,
+        name: "Evance Abok",
+        organization: "Project Manager, Takataka ni Mali"
+    },
+    {
+        id: 117,
+        name: "Jonty Slater",
+        organization: "Director of International Development, Challenge Works"
+    },
+    {
+        id: 118,
+        name: "Joshua Samson",
+        organization: "Takataka ni Mali"
+    },
+    {
+        id: 119,
+        name: "Felicia",
+        organization: ""
+    },
+    {
+        id: 120,
+        name: "Leonitius Leonidas",
+        organization: "Project Coordinator, Tanzania House of Talent"
+    },
+    {
+        id: 121,
+        name: "Lucas Malcor",
+        organization: "Director, Alliance Francaise Mombasa"
+    },
+    {
+        id: 122,
+        name: "Babelynn Mukila",
+        organization: "Champion Diversity, Extravaganza Initiative"
+    },
+    {
+        id: 123,
+        name: "Yashpal Sihag",
+        organization: "Program Manager, Cap Youth Empowerment Center"
+    },
+    {
+        id: 124,
+        name: "Alvin Chole",
+        organization: "Head of Programs, Sote Hub"
+    },
+    {
+        id: 125,
+        name: "Dr. Mathew Egessa",
+        organization: "Founding Coordinator, BEI Hub"
+    },
+    {
+        id: 126,
+        name: "Ms. Sally Mahihu",
+        organization: "Chairperson, KENINVEST"
+    },
+    {
+        id: 127,
+        name: "Maina Chege",
+        organization: "Trading Bell Show Host, KTN News"
+    },
+    {
+        id: 128,
+        name: "Ms. Susan Mang'eni",
+        organization: "Principal Secretary, State Department for MSMEs"
+    },
+    {
+        id: 129,
+        name: "Mr. Geoffrey Odundo",
+        organization: "CEO, Nairobi Securities Exchange"
+    },
+    {
+        id: 130,
+        name: "Ms. Catherine Maina",
+        organization: "Senior Manager, Huawei Technologies"
+    },
+    {
+        id: 131,
+        name: "Mr. Geoffrey Kilonzo",
+        organization: "MD, Institute of Certified SIYB Trainers, ILO"
+    },
+    {
+        id: 132,
+        name: "Laurent Kuligha Ambrose",
+        organization: "Investment Associate, Close the Gap Hub"
+    },
+    {
+        id: 133,
+        name: "Athman Mohamed",
+        organization: ""
+    },
+    {
+        id: 134,
+        name: "Grace Kola",
+        organization: "COO, WEEE Center" 
+    },
+    {
+        id: 135,
+        name: "Benjamin Otwal",
+        organization: ""
+    },
+    {
+        id: 136,
+        name: "Amina Khalid",
         organization: ""
     }
 ]
