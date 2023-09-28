@@ -83,6 +83,18 @@ function GetInvolved() {
         >
           Loading…
         </iframe>
+
+        <h3 className="section-heading text-center mb-5">Pwani Innovation Week: Media Registration</h3>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfVfqZeeuY4lM3xYG2_qiXjQdlTJaKbk5M7FodYgENFe1L4lw/viewform?embedded=true"
+          width="1300"
+          height="861"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >
+          Loading…
+        </iframe>
       </div>
     </section>
   );
