@@ -1718,5 +1718,15 @@ export const sponsors = [
     { id: 19, imageURL: "../../assets/images/sponsors/Pure pearl.png", sponsor_name: "Pure pearl" },
     { id: 20, imageURL: "../../assets/images/sponsors/KCIC_Logo.png", sponsor_name: "Kenya Climate Innovation Center"},
     { id: 21, imageURL: "../../assets/images/sponsors/TechKidzAfrica_Logo.png", sponsor_name: "Tech Kidz Africa"},
+    { id: 22, imageURL: "../../assets/images/sponsors/absa-logo-red.png", sponsor_name: "Absa Bank"},
+    { id: 23, imageURL: "../../assets/images/sponsors/ajira.png", sponsor_name: "Ajira Digital"},
+    { id: 24, imageURL: "../../assets/images/sponsors/belgium-amb.png", sponsor_name: "Belgium Ambassodor"},
+    { id: 25, imageURL: "../../assets/images/sponsors/Casik-logo.png", sponsor_name: "Creative Arts Spaces in Kenya"},
+    { id: 26, imageURL: "../../assets/images/sponsors/computer-pride", sponsor_name: "Computerpride"},
+    { id: 27, imageURL: "../../assets/images/sponsors/header-kncci-logo.png", sponsor_name: "Kenya National Chamber of Commerce and Industry"},
+    { id: 28, imageURL: "../../assets/images/sponsors/jumuiya.png", sponsor_name: "Jumuiya Ya Kaunti Za Pwani"},
+    { id: 29, imageURL: "../../assets/images/sponsors/KEPSALOGO.png", sponsor_name: "Kenya Private Sector Alliance"},
+    { id: 30, imageURL: "../../assets/images/sponsors/museamslogo.png", sponsor_name: "National Museams of Kenya"},
+    { id: 31, imageURL: "../../assets/images/sponsers/seacom.png", sponsor_name: "SEACOM"}
 ];
 
