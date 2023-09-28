@@ -30,6 +30,17 @@ import tactive from '../../assets/images/sponsors/tactive.png'
 // import TUL from  "../../assets/images/sponsors/taifa unga logo.png"
 import taifa from '../../assets/images/sponsors/taifa.png'
 import kcic from "../../assets/images/sponsors/KCIC_Logo.png"
+import absa from "../../assets/images/sponsors/absa-logo-red.png"
+import ajira from "../../assets/images/sponsors/ajira.png"
+import belgium from "../../assets/images/sponsors/belgium-amb.png"
+import casik from "../../assets/images/sponsors/Casik-logo.png"
+import computerpride from "../../assets/images/sponsors/computer-pride.png"
+import kncci from "../../assets/images/sponsors/header-kncci-logo.png"
+import jumuiya from "../../assets/images/sponsors/jumuiya.png"
+import KEPSA from "../../assets/images/sponsors/KEPSALOGO.png"
+import museam from "../../assets/images/sponsors/museumslogo.png"
+import seacom from "../../assets/images/sponsors/seacom.png"
+
 import techkidz from "../../assets/images/sponsors/TechKidzAfrica_Logo.png"
 import TwitterTimeline from '../x-plugin/tweet_embed'
 // import "../../assets/scss/theme.scss"
@@ -217,6 +228,36 @@ const Infosec = () => {
             </div>
             <div className='logo-item col-6 col-md-4 col-lg-2'>
               <img src={techkidz} alt='' />
+            </div>
+            <div className='logo-item col-6 col-md-4 col-lg-2'>
+              <img src={absa} alt='' height="140"/>
+            </div>
+            <div className='logo-item col-6 col-md-4 col-lg-2'>
+              <img src={ajira} alt='' />
+            </div>
+            <div className='logo-item col-6 col-md-4 col-lg-2'>
+              <img src={belgium} alt='' height="140"/>
+            </div>
+            <div className='logo-item col-6 col-md-4 col-lg-2'>
+              <img src={casik} alt='' />
+            </div>
+            <div className='logo-item col-6 col-md-4 col-lg-2'>
+              <img src={computerpride} alt='' />
+            </div>
+            <div className='logo-item col-6 col-md-4 col-lg-2'>
+              <img src={kncci} alt='' />
+            </div>
+            <div className='logo-item col-6 col-md-4 col-lg-2'>
+              <img src={jumuiya} alt='' />
+            </div>
+            <div className='logo-item col-6 col-md-4 col-lg-2'>
+              <img src={KEPSA} alt='' height="140"/>
+            </div>
+            <div className='logo-item col-6 col-md-4 col-lg-2'>
+              <img src={museam} alt='' />
+            </div>
+            <div className='logo-item col-6 col-md-4 col-lg-2'>
+              <img src={seacom} alt='' />
             </div>
           </div>
           {/* <!--//row--> */}
