@@ -5,7 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Pwani Innovation Week is a consolidated effort by Swahilipot Hub Foundation and its partners to help create a widespread culture of innovation and stimulate the innovation ecosystem in the coastal (pwani)region of eastern Africa." />
+    <meta name="description" content="Pwani Innovation Week is a consolidated effort by Swahilipot Hub Foundation and its partners to help create a widespread culture of innovation and stimulate the innovation ecosystem in the coastal (pwani) region of eastern Africa." />
     <meta name="author" content="Chris Achinga - Swahilipot Hub" />
     <link rel="shortcut icon" href="./images/favicon.ico" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon-256x256.png" />
@@ -13,6 +13,16 @@
     <!-- <link rel="stylesheet" href="./../public/css/custom.css"> -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Pwani Innovation Week - PIW 2023 Sailing Beyond Borders</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-18K6F9B76J"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '${process.env.REACT_APP_GOOGLE_ANALYTICS_ID}');
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -24,6 +34,5 @@
     <script src="../src/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="../src/assets/plugins/smoothscroll.min.js"></script>
     <script src="../src/assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
-
   </body>
 </html>
